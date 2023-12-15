@@ -11,7 +11,7 @@
           <p class="sm:text-2xl text-white text-xl"> Топ - майстер з реконструкції та естетики волосся
           </p></div>
         <div class="picture-wrapper h-fit hidden lg:block relative shrink-0 w-fit">
-          <img class="master-picture" src="/master.png" alt=""></div>
+          <img class="master-picture" src="assets/master.png" alt=""></div>
       </div>
     </section>
   </div>
