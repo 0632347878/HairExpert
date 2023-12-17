@@ -9,7 +9,7 @@
       }"
   >
     <SwiperSlide v-for="image in images" :key="image">
-      <img :src="image" :alt="image">
+      <NuxtImg :src="image" :alt="image" />
     </SwiperSlide>
   </Swiper>
 </template>
@@ -21,7 +21,7 @@ export default {
 
   data() {
     return {
-      images: ["assets/master.png", "assets/gallery.jpg", "assets/master.png"]
+      images: ["master.png", "gallery.jpg", "master.png"]
 }}}
 </script>
 
