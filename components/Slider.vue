@@ -22,7 +22,7 @@ export default {
 
   data() {
     return {
-      images: ["master.png", "gallery.jpg", "master.png"]
+      images: ["assets/master.png", "assets/gallery.jpg", "assets/master.png"]
 }}}
 </script>
 
