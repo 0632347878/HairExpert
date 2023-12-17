@@ -1,4 +1,4 @@
-import { effectScope, reactive, hasInjectionContext, getCurrentInstance, version, unref, inject, toRef, h, isReadonly, isRef, isShallow, isReactive, toRaw, useSSRContext, defineAsyncComponent, mergeProps, provide, onErrorCaptured, onServerPrefetch, createVNode, resolveDynamicComponent, createApp } from "vue";
+import { effectScope, reactive, hasInjectionContext, getCurrentInstance, version, unref, inject, toRef, h, isReadonly, isRef, isShallow, isReactive, toRaw, mergeProps, useSSRContext, withCtx, createVNode, openBlock, createBlock, Fragment, renderList, defineAsyncComponent, provide, onErrorCaptured, onServerPrefetch, resolveDynamicComponent, createApp } from "vue";
 import { useRuntimeConfig as useRuntimeConfig$1 } from "#internal/nitro";
 import { $fetch } from "ofetch";
 import { createHooks } from "hookable";
@@ -10,7 +10,9 @@ import { sanitizeStatusCode, createError as createError$1 } from "h3";
 import "defu";
 import "klona";
 import "devalue";
-import { ssrRenderAttrs, ssrRenderAttr, ssrRenderComponent, ssrRenderSuspense, ssrRenderVNode } from "vue/server-renderer";
+import { ssrRenderAttrs, ssrInterpolate, ssrRenderComponent, ssrRenderList, ssrRenderAttr, ssrRenderStyle, ssrRenderSuspense, ssrRenderVNode } from "vue/server-renderer";
+import { Swiper, SwiperSlide } from "swiper/vue";
+import { Autoplay, Pagination } from "swiper/modules";
 const appConfig = useRuntimeConfig$1().app;
 const baseURL = () => appConfig.baseURL;
 if (!globalThis.$fetch) {
@@ -667,8 +669,7 @@ const plugins = [
   revive_payload_server_eJ33V7gbc6,
   components_plugin_KR1HBZs4kY
 ];
-const _imports_0 = "" + __buildAssetsURL("master.fe81ad6a.png");
-const app_vue_vue_type_style_index_0_scoped_8fd832d7_lang = "";
+const LiquidButton_vue_vue_type_style_index_0_lang = "";
 const _export_sfc = (sfc, props) => {
   const target = sfc.__vccOpts || sfc;
   for (const [key, val] of props) {
@@ -676,9 +677,163 @@ const _export_sfc = (sfc, props) => {
   }
   return target;
 };
-const _sfc_main$2 = {};
-function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
-  _push(`<div${ssrRenderAttrs(_attrs)} data-v-8fd832d7><section class="relative section" data-v-8fd832d7><div class="section-inner flex flex-row gap-4 justify-center lg:gap-8 max-w-[1280px] md:gap-6 sm:gap-4 mx-auto px-12 w-full" data-v-8fd832d7><div class="description-wrapper flex flex-col justify-center lg:py-2 lg:text-left lg:w-full py-52 text-center" data-v-8fd832d7><h1 class="heading bg-text font-serif gradient leading-tight text-5xl text-koromiko uppercase xl:leading-tight xl:text-6xl" data-v-8fd832d7><span data-v-8fd832d7>Anna Kuchma</span><span data-v-8fd832d7>Anna Kuchma</span></h1><p class="sm:text-2xl text-white text-xl" data-v-8fd832d7> Топ - майстер з реконструкції та естетики волосся </p></div><div class="picture-wrapper h-fit hidden lg:block relative shrink-0 w-fit" data-v-8fd832d7><img class="master-picture"${ssrRenderAttr("src", _imports_0)} alt="" data-v-8fd832d7></div></div></section></div>`);
+const _sfc_main$7 = {
+  name: "LiquidButton",
+  props: {
+    greetingMessage: String
+  }
+};
+function _sfc_ssrRender$5(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<a${ssrRenderAttrs(mergeProps({ href: "https://t.me/annaivanskay" }, _attrs))}><span>${ssrInterpolate($props.greetingMessage)}</span><div class="liquid"></div></a>`);
+}
+const _sfc_setup$7 = _sfc_main$7.setup;
+_sfc_main$7.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/LiquidButton.vue");
+  return _sfc_setup$7 ? _sfc_setup$7(props, ctx) : void 0;
+};
+const __nuxt_component_0$1 = /* @__PURE__ */ _export_sfc(_sfc_main$7, [["ssrRender", _sfc_ssrRender$5]]);
+const _sfc_main$6 = {
+  name: "Slider",
+  data() {
+    return {
+      images: ["master.png", "gallery.jpg", "master.png"]
+    };
+  }
+};
+function _sfc_ssrRender$4(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  const _component_Swiper = Swiper;
+  const _component_SwiperSlide = SwiperSlide;
+  _push(ssrRenderComponent(_component_Swiper, mergeProps({
+    modules: ["SwiperAutoplay" in _ctx ? _ctx.SwiperAutoplay : unref(Autoplay), "SwiperPagination" in _ctx ? _ctx.SwiperPagination : unref(Pagination)],
+    "slides-per-view": 1,
+    loop: true,
+    autoplay: {
+      delay: 4e3,
+      disableOnInteraction: true
+    }
+  }, _attrs), {
+    default: withCtx((_, _push2, _parent2, _scopeId) => {
+      if (_push2) {
+        _push2(`<!--[-->`);
+        ssrRenderList($data.images, (image) => {
+          _push2(ssrRenderComponent(_component_SwiperSlide, { key: image }, {
+            default: withCtx((_2, _push3, _parent3, _scopeId2) => {
+              if (_push3) {
+                _push3(`<img${ssrRenderAttr("src", image)}${ssrRenderAttr("alt", image)}${_scopeId2}>`);
+              } else {
+                return [
+                  createVNode("img", {
+                    src: image,
+                    alt: image
+                  }, null, 8, ["src", "alt"])
+                ];
+              }
+            }),
+            _: 2
+          }, _parent2, _scopeId));
+        });
+        _push2(`<!--]-->`);
+      } else {
+        return [
+          (openBlock(true), createBlock(Fragment, null, renderList($data.images, (image) => {
+            return openBlock(), createBlock(_component_SwiperSlide, { key: image }, {
+              default: withCtx(() => [
+                createVNode("img", {
+                  src: image,
+                  alt: image
+                }, null, 8, ["src", "alt"])
+              ]),
+              _: 2
+            }, 1024);
+          }), 128))
+        ];
+      }
+    }),
+    _: 1
+  }, _parent));
+}
+const _sfc_setup$6 = _sfc_main$6.setup;
+_sfc_main$6.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/Slider.vue");
+  return _sfc_setup$6 ? _sfc_setup$6(props, ctx) : void 0;
+};
+const __nuxt_component_1$1 = /* @__PURE__ */ _export_sfc(_sfc_main$6, [["ssrRender", _sfc_ssrRender$4]]);
+const Advantages_vue_vue_type_style_index_0_lang = "";
+const _sfc_main$5 = {
+  components: { LiquidButton: __nuxt_component_0$1 }
+};
+function _sfc_ssrRender$3(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  const _component_LiquidButton = __nuxt_component_0$1;
+  const _component_Slider = __nuxt_component_1$1;
+  _push(`<section${ssrRenderAttrs(mergeProps({ class: "advantage" }, _attrs))}><div class="flex flex-col-reverse gap-4 lg:gap-[7rem] lg:max-w-12col lg:py-[5rem] max-w-5col md:flex-row md:gap-12 md:max-w-8col md:py-10 mt-20 mx-auto px-8 py-2 w-full"><div class="lg:py-8 py-2 space-y-4 w-full"><h1 class="hero-title bg-text font-serif gradient hidden leading-normal lg:leading-normal lg:text-5xl md:block text-4xl text-koromiko uppercase"><span>Anna Kuchma</span><span>Anna Kuchma</span></h1><ul class="advantage-list space-y-4"><li class="dot"> На своём примере показываю, как быстро можно достичь цели 🎯</li><li class="dot"> Независимый технолог модификации и реконструкции волос</li><li class="dot">С нуля до студии 100м²</li><li class="dot">Обучение с нуля</li><li class="dot"> Онлайн/офлайн повышение квалификации для действующих мастеров</li><li class="dot"> Мои ученицы работают по всему миру и успешно применяют мою уникальную методику</li><li class="dot"> Автор онлайн курса «Идеальное полотно. Работа с ёлкой»</li></ul><div class="flex flex-col items-center lg:flex-row lg:space-x-2.5 lg:space-y-0 py-2.5 space-x-0 space-y-2.5 w-full">`);
+  _push(ssrRenderComponent(_component_LiquidButton, { greetingMessage: "Онлайн обучение" }, null, _parent));
+  _push(`</div></div><div class="gallery h-fit lg:max-w-4col max-w-full md:max-h-none md:max-w-3col overflow-hidden rounded-3xl shrink-0 w-full xl:max-w-5col">`);
+  _push(ssrRenderComponent(_component_Slider, null, null, _parent));
+  _push(`</div></div></section>`);
+}
+const _sfc_setup$5 = _sfc_main$5.setup;
+_sfc_main$5.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/Advantages.vue");
+  return _sfc_setup$5 ? _sfc_setup$5(props, ctx) : void 0;
+};
+const __nuxt_component_0 = /* @__PURE__ */ _export_sfc(_sfc_main$5, [["ssrRender", _sfc_ssrRender$3]]);
+const Course_vue_vue_type_style_index_0_lang = "";
+const _sfc_main$4 = {
+  name: "Course"
+};
+function _sfc_ssrRender$2(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<section${ssrRenderAttrs(_attrs)}><div class="lg:max-w-12col max-w-5col md:max-w-8col mx-auto p-8 space-y-4 w-full"><div class="space-y-4" id="courseProgram"><h2 class="course-title leading-tight lg:text-5xl text-4xl uppercase"> Онлайн курс<br>«Идеальное полотно. Работа с ёлкой» </h2><p class="!mt-10 text-justify text-lg"> Все твои вопросы и трудности в работе можно закрыть с помощью одного обучения – мечта, правда? Для меня – это реальность. Весь мой опыт, наработки и авторские фишки будут доступны для тебя. Мой курс посвящён идеальному полотну и ты сможешь научиться его создавать. Научишься продвигать свои работы, чтобы стать топ экспертом в своей сфере. </p><dl class="flex flex-row flex-wrap gap-x-4 gap-y-2 py-8"><div class="basis-full golden-border grow overflow-hidden p-[2px] rounded-xl shrink-0 sm:basis-0"><div class="font-semibold golden h-full p-3 rounded-[0.8725rem] space-y-4 text-black"><dt>Для кого подойдёт обучение?</dt><dd class="font-medium"> Для действующих мастеров модификации волос.</dd></div></div><div class="basis-full h-0 hidden lg:hidden sm:block w-0"></div><div class="basis-full golden-border grow overflow-hidden p-[2px] rounded-xl shrink-0 sm:basis-0"><div class="font-semibold golden h-full p-3 rounded-[0.8725rem] space-y-4 text-black"><dt>Какой формат?</dt><dd class="font-medium">Уроки в записи.</dd></div></div><div class="basis-full golden-border grow overflow-hidden p-[2px] rounded-xl shrink-0 sm:basis-0"><div class="font-semibold golden h-full p-3 rounded-[0.8725rem] space-y-4 text-black"><dt>Доступ к курсу</dt><dd class="font-medium"> Тариф Classic - 1 месяц<br> Тариф Vip - 2 месяца</dd></div></div></dl><div class="space-y-8"><h3 class="font-serif text-3xl">Программа курса:</h3><div class="border-black border-l-2 dark:border-white space-y-8"><div class="space-y-4"><h4 id="firstModule" class="font-medium step"> Первый теоретический модуль включает в себя шесть уроков. </h4><div class="dark:text-neutral-300 pl-4 sm:pl-8 text-neutral-800"><ol role="list" aria-labelledby="firstModule" class="space-y-2.5"><li class="num">Что такое ёлка?</li><li class="num"> Составы, которые помогут достичь идеального полотна. Подбор под структуры волос.</li><li class="num"> Температурный режим во время выпаривания.</li><li class="num">Мои лайфхаки и фишки в работе.</li><li class="num">Завершение процедур.</li><li class="num"> Домашний уход, рекомендации для клиента.</li><li class="num">Дополнительное освещение, съёмка.</li></ol></div></div><div class="space-y-4"><h4 id="secondModule" class="font-medium step"> Второй практический модуль включает в себя: </h4><div class="dark:text-neutral-300 pl-4 sm:pl-8 text-neutral-800"><ol role="list" aria-labelledby="secondModule" class="space-y-2.5"><li class="num"> Разбор структуры модели, подготовка волос к процедуре.</li><li class="num">Работа с подложкой.</li><li class="num"> Нанесение состава, быстрая сушка волос.</li><li class="num"> Та самая авторская техника выпаривания.</li><li class="num"> Завершение процедуры, сушка, результат.</li></ol></div></div><div class="space-y-4"><h4 id="thirdModule" class="font-medium step"> Третий модуль от приглашённого спикера 🚀 </h4><div class="dark:text-neutral-300 pl-4 sm:pl-8 space-y-4 text-neutral-800"><div class="rounded-2xl select-none swiper swiper-initialized swiper-horizontal swiper-backface-hidden" id="sliderA" data-swiper-slides-per-view="1" data-swiper-breakpoints="768.slidesPerView:2"><div class="swiper-wrapper"><div class="!flex justify-center md:!block md:!w-fit swiper-slide swiper-slide-active" style="${ssrRenderStyle({ "width": "509px", "margin-right": "20px" })}"><div class="overflow-hidden rounded-2xl w-fit"><img${ssrRenderAttr("src", "")} alt=""></div></div><div class="!flex justify-center md:!block md:!w-fit swiper-slide swiper-slide-next" style="${ssrRenderStyle({ "width": "509px", "margin-right": "20px" })}"><div class="overflow-hidden rounded-2xl w-fit"><img${ssrRenderAttr("src", "")} alt=""></div></div></div><div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal swiper-pagination-lock"><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span></div></div><blockquote class="quote text-justify"> Меня зовут Алексеева Елизавета и я выступаю в роли приглашенного спикера. Я являюсь ведущим специалистом в области smm, контент-менеджмента и продюсирования. Я поделюсь с вами двухлетним опытом работы в Инстаграм. Моя миссия - обьяснить, как эффективно работать с инструментами Инстаграма, чтобы быть с ним на ТЫ. </blockquote><ol role="list" aria-labelledby="thirdModule" class="space-y-2.5"><li class="num"> Что такое упаковка профиля и зачем она нужна?</li><li class="num">Ошибки при ведение профиля.</li><li class="num">Что транслировать? Виды контента.</li></ol></div></div></div></div></div></div></section>`);
+}
+const _sfc_setup$4 = _sfc_main$4.setup;
+_sfc_main$4.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/Course.vue");
+  return _sfc_setup$4 ? _sfc_setup$4(props, ctx) : void 0;
+};
+const __nuxt_component_1 = /* @__PURE__ */ _export_sfc(_sfc_main$4, [["ssrRender", _sfc_ssrRender$2]]);
+const Tariffs_vue_vue_type_style_index_0_lang = "";
+const _sfc_main$3 = {
+  name: "Tariffs",
+  components: { LiquidButton: __nuxt_component_0$1 }
+};
+function _sfc_ssrRender$1(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  const _component_LiquidButton = __nuxt_component_0$1;
+  _push(`<section${ssrRenderAttrs(_attrs)}><div class="lg:max-w-12col max-w-5col md:max-w-8col mt-20 mx-auto px-8 space-y-8 w-full"><h2 class="font-serif leading-tight text-[2rem] uppercase">Тарифы</h2><div class="flex flex-col gap-6 lg:gap-8 md:flex-row"><div class="bg-[radial-gradient(circle_at_18.7%_37.8%,#f0f0f0_0,#cdd6da_90%)] flex flex-col gap-9 pb-5 pt-10 px-3 rounded-2xl sm:px-8 sm:py-10 text-black w-full"><h4 class="font-medium text-3xl text-center">Classic</h4><div class="flex flex-col items-center"><div class="w-fit font-serif"><p class="font-bold text-5xl"><span>₴</span>3600</p></div></div><p class="font-semibold text-center text-sm uppercase"> 2 модуля 12 уроков </p><div class="px-3 space-y-4"><ul class="font-medium"><li class="check">доступ к общему чату</li><li class="check">доступ к материалу 1 месяц</li><li class="check">конспекты и доп материал к урокам</li><li class="check">сертификат о прохождение курса</li></ul></div><div class="flex flex-col justify-center mt-auto pt-6">`);
+  _push(ssrRenderComponent(_component_LiquidButton, {
+    class: "tariff-button",
+    greetingMessage: "Купить"
+  }, null, _parent));
+  _push(`</div></div><div class="bg-[radial-gradient(circle_at_18.7%_37.8%,#fbe972_0,#d99428_90%)] flex flex-col gap-9 pb-5 pt-10 px-3 rounded-2xl sm:px-8 sm:py-10 text-black w-full"><h4 class="font-medium text-3xl text-center">VIP</h4><div class="flex flex-col items-center"><div class="w-fit font-serif"><p class="font-bold text-5xl"><span>₴</span>4800</p></div></div><p class="font-semibold text-center text-sm uppercase"> 3 модуля 15 уроков </p><div class="px-3 space-y-4"><p class="text-justify">Для тех кто хочет делать не только идеальное полотно, но и подвигать себя в инстаграмм.</p><ul class="font-medium"><li class="check">доступ к общему чату</li><li class="check"> обратная связь с Валерией Куржос в личных сообщениях</li><li class="check">доступ к материалу 2 месяц</li><li class="check">конспекты и доп материал к урокам</li><li class="check">сертификат о прохождение курса</li></ul></div><div class="flex flex-col justify-center mt-auto pt-6">`);
+  _push(ssrRenderComponent(_component_LiquidButton, {
+    class: "tariff-button",
+    greetingMessage: "Купить"
+  }, null, _parent));
+  _push(`</div></div></div></div></section>`);
+}
+const _sfc_setup$3 = _sfc_main$3.setup;
+_sfc_main$3.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/Tariffs.vue");
+  return _sfc_setup$3 ? _sfc_setup$3(props, ctx) : void 0;
+};
+const __nuxt_component_2 = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["ssrRender", _sfc_ssrRender$1]]);
+const _imports_0 = "" + __buildAssetsURL("master.fe81ad6a.png");
+const app_vue_vue_type_style_index_0_lang = "";
+const _sfc_main$2 = {
+  components: { Course: __nuxt_component_1, Advantages: __nuxt_component_0, Tariffs: __nuxt_component_2 }
+};
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  const _component_Advantages = __nuxt_component_0;
+  const _component_Course = __nuxt_component_1;
+  const _component_Tariffs = __nuxt_component_2;
+  _push(`<div${ssrRenderAttrs(_attrs)}><section class="relative section"><div class="section-inner flex flex-row gap-4 justify-center lg:gap-8 max-w-[1280px] md:gap-6 sm:gap-4 mx-auto px-12 w-full"><div class="description-wrapper flex flex-col justify-center lg:py-2 lg:text-left lg:w-full py-52 text-center"><h1 class="hero-title heading bg-text font-serif gradient leading-tight text-5xl text-koromiko uppercase xl:leading-tight xl:text-6xl"><span>Anna Kuchma</span><span>Anna Kuchma</span></h1><p class="sm:text-2xl text-white text-xl"> Топ - майстер з реконструкції та естетики волосся </p></div><div class="picture-wrapper h-fit hidden lg:block relative shrink-0 w-fit"><img class="master-picture"${ssrRenderAttr("src", _imports_0)} alt=""></div></div></section>`);
+  _push(ssrRenderComponent(_component_Advantages, null, null, _parent));
+  _push(ssrRenderComponent(_component_Course, null, null, _parent));
+  _push(ssrRenderComponent(_component_Tariffs, null, null, _parent));
+  _push(`</div>`);
 }
 const _sfc_setup$2 = _sfc_main$2.setup;
 _sfc_main$2.setup = (props, ctx) => {
@@ -686,7 +841,7 @@ _sfc_main$2.setup = (props, ctx) => {
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("app.vue");
   return _sfc_setup$2 ? _sfc_setup$2(props, ctx) : void 0;
 };
-const AppComponent = /* @__PURE__ */ _export_sfc(_sfc_main$2, [["ssrRender", _sfc_ssrRender], ["__scopeId", "data-v-8fd832d7"]]);
+const AppComponent = /* @__PURE__ */ _export_sfc(_sfc_main$2, [["ssrRender", _sfc_ssrRender]]);
 const _sfc_main$1 = {
   __name: "nuxt-error-page",
   __ssrInlineRender: true,
@@ -708,8 +863,8 @@ const _sfc_main$1 = {
     const statusMessage = _error.statusMessage ?? (is404 ? "Page Not Found" : "Internal Server Error");
     const description = _error.message || _error.toString();
     const stack = void 0;
-    const _Error404 = defineAsyncComponent(() => import("./_nuxt/error-404-75cc9b05.js").then((r) => r.default || r));
-    const _Error = defineAsyncComponent(() => import("./_nuxt/error-500-a58bedc4.js").then((r) => r.default || r));
+    const _Error404 = defineAsyncComponent(() => import("./_nuxt/error-404-aebb40a7.js").then((r) => r.default || r));
+    const _Error = defineAsyncComponent(() => import("./_nuxt/error-500-bfa0cd63.js").then((r) => r.default || r));
     const ErrorTemplate = is404 ? _Error404 : _Error;
     return (_ctx, _push, _parent, _attrs) => {
       _push(ssrRenderComponent(unref(ErrorTemplate), mergeProps({ statusCode: unref(statusCode), statusMessage: unref(statusMessage), description: unref(description), stack: unref(stack) }, _attrs), null, _parent));
@@ -727,7 +882,7 @@ const _sfc_main = {
   __name: "nuxt-root",
   __ssrInlineRender: true,
   setup(__props) {
-    const IslandRenderer = defineAsyncComponent(() => import("./_nuxt/island-renderer-4c185c66.js").then((r) => r.default || r));
+    const IslandRenderer = defineAsyncComponent(() => import("./_nuxt/island-renderer-7a678a3c.js").then((r) => r.default || r));
     const nuxtApp = /* @__PURE__ */ useNuxtApp();
     nuxtApp.deferHydration();
     nuxtApp.ssrContext.url;

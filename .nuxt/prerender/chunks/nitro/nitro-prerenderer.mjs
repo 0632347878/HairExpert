@@ -20,7 +20,7 @@ import { dirname, resolve } from 'file:///Users/mac/anna-hair-expert/node_module
 
 const inlineAppConfig = {
   "nuxt": {
-    "buildId": "40a6a2c3-9209-41d3-ac89-51d83d4bd136"
+    "buildId": "f95e5030-e47f-4be6-a93a-4c04de0387f0"
   }
 };
 
@@ -707,7 +707,7 @@ const _f4b49z = eventHandler((event) => {
   return readAsset(id);
 });
 
-const _lazy_EhRKAW = () => import('../renderer.mjs');
+const _lazy_EhRKAW = () => import('../renderer.mjs').then(function (n) { return n.r; });
 
 const handlers = [
   { route: '', handler: _f4b49z, lazy: false, middleware: true, method: undefined },

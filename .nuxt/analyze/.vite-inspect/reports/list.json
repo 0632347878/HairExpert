@@ -7,7 +7,7 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 575
+          "transform": 375
         },
         {
           "name": "vite:define",
@@ -19,7 +19,7 @@
         }
       ],
       "virtual": false,
-      "totalTime": 575,
+      "totalTime": 375,
       "invokeCount": 1,
       "sourceSize": 393,
       "distSize": 0
@@ -30,34 +30,38 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 119
+          "transform": 911
         },
         {
           "name": "vite:vue",
-          "transform": 5
+          "transform": 10
+        },
+        {
+          "name": "nuxt:components-loader",
+          "transform": 1
         }
       ],
       "virtual": false,
-      "totalTime": 124,
+      "totalTime": 922,
       "invokeCount": 1,
-      "sourceSize": 2655,
+      "sourceSize": 3030,
       "distSize": 0
     },
     {
-      "id": "/Users/mac/anna-hair-expert/app.vue?vue&type=style&index=0&scoped=8fd832d7&lang.scss",
+      "id": "/Users/mac/anna-hair-expert/app.vue?vue&type=style&index=0&lang.scss",
       "deps": [],
       "plugins": [
         {
           "name": "vite:vue",
-          "transform": 1
+          "transform": 0
         },
         {
           "name": "vite:css",
-          "transform": 366
+          "transform": 843
         },
         {
           "name": "vite:vue",
-          "transform": 7
+          "transform": 2
         },
         {
           "name": "vite:css-post",
@@ -65,9 +69,32 @@
         }
       ],
       "virtual": true,
-      "totalTime": 374,
+      "totalTime": 845,
       "invokeCount": 1,
-      "sourceSize": 1691,
+      "sourceSize": 1781,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/assets/css/fonts.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:resolve (+alias)",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve (+alias)",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve (+alias)",
+          "resolveId": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 0,
+      "sourceSize": 0,
       "distSize": 0
     },
     {
@@ -76,11 +103,11 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 162
+          "transform": 139
         },
         {
           "name": "vite:css",
-          "transform": 1001
+          "transform": 2906
         },
         {
           "name": "vite:css-post",
@@ -96,17 +123,17 @@
         },
         {
           "name": "alias",
-          "resolveId": 3
+          "resolveId": 7
         },
         {
           "name": "ssr-styles",
-          "resolveId": 5
+          "resolveId": 10
         }
       ],
       "virtual": false,
-      "totalTime": 1163,
+      "totalTime": 3045,
       "invokeCount": 1,
-      "sourceSize": 59,
+      "sourceSize": 223,
       "distSize": 0
     },
     {
@@ -115,11 +142,11 @@
       "plugins": [
         {
           "name": "alias",
-          "resolveId": 2
+          "resolveId": 1
         },
         {
           "name": "ssr-styles",
-          "resolveId": 2
+          "resolveId": 1
         }
       ],
       "virtual": true,
@@ -134,38 +161,57 @@
       "plugins": [
         {
           "name": "vite:asset",
-          "transform": 466
+          "transform": 971
         },
         {
           "name": "nuxt:runtime-paths-dep",
-          "transform": 1
+          "transform": 0
         },
         {
           "name": "alias",
-          "resolveId": 1
+          "resolveId": 2
         }
       ],
       "virtual": true,
-      "totalTime": 467,
+      "totalTime": 971,
       "invokeCount": 1,
       "sourceSize": 41,
       "distSize": 0
     },
     {
-      "id": "/Users/mac/anna-hair-expert/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
+      "id": "/Users/mac/anna-hair-expert/assets/scss/components/liquid-button.scss",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:resolve (+alias)",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve (+alias)",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve (+alias)",
+          "resolveId": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 0,
+      "sourceSize": 0,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/components/Advantages.vue",
       "deps": [],
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 453
+          "transform": 921
         },
         {
           "name": "vite:vue",
           "transform": 6
-        },
-        {
-          "name": "nuxt:imports-transform",
-          "transform": 5
         },
         {
           "name": "nuxt:components-loader",
@@ -177,11 +223,274 @@
         },
         {
           "name": "ssr-styles",
+          "resolveId": 3
+        }
+      ],
+      "virtual": false,
+      "totalTime": 927,
+      "invokeCount": 1,
+      "sourceSize": 3074,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/components/Advantages.vue?vue&type=style&index=0&lang.scss",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:css",
+          "transform": 86
+        },
+        {
+          "name": "vite:vue",
+          "transform": 1
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 87,
+      "invokeCount": 1,
+      "sourceSize": 693,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/components/Course.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 934
+        },
+        {
+          "name": "vite:vue",
+          "transform": 7
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "ssr-styles",
+          "resolveId": 3
+        }
+      ],
+      "virtual": false,
+      "totalTime": 941,
+      "invokeCount": 1,
+      "sourceSize": 8700,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/components/Course.vue?vue&type=style&index=0&lang.scss",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:css",
+          "transform": 73
+        },
+        {
+          "name": "vite:vue",
+          "transform": 1
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 74,
+      "invokeCount": 1,
+      "sourceSize": 1057,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/components/LiquidButton.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 384
+        },
+        {
+          "name": "vite:vue",
+          "transform": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "ssr-styles",
           "resolveId": 1
         }
       ],
       "virtual": false,
-      "totalTime": 464,
+      "totalTime": 385,
+      "invokeCount": 1,
+      "sourceSize": 321,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/components/LiquidButton.vue?vue&type=style&index=0&lang.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:css",
+          "transform": 217
+        },
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 217,
+      "invokeCount": 1,
+      "sourceSize": 57,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/components/Slider.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 391
+        },
+        {
+          "name": "vite:vue",
+          "transform": 6
+        },
+        {
+          "name": "nuxt:imports-transform",
+          "transform": 1
+        },
+        {
+          "name": "nuxt:components-loader",
+          "transform": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 398,
+      "invokeCount": 1,
+      "sourceSize": 512,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/components/Tariffs.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 1166
+        },
+        {
+          "name": "vite:vue",
+          "transform": 4
+        },
+        {
+          "name": "nuxt:components-loader",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "ssr-styles",
+          "resolveId": 3
+        }
+      ],
+      "virtual": false,
+      "totalTime": 1170,
+      "invokeCount": 1,
+      "sourceSize": 4704,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/components/Tariffs.vue?vue&type=style&index=0&lang.scss",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:css",
+          "transform": 119
+        },
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 119,
+      "invokeCount": 1,
+      "sourceSize": 771,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 610
+        },
+        {
+          "name": "vite:vue",
+          "transform": 4
+        },
+        {
+          "name": "nuxt:imports-transform",
+          "transform": 2
+        },
+        {
+          "name": "nuxt:components-loader",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "ssr-styles",
+          "resolveId": 7
+        }
+      ],
+      "virtual": false,
+      "totalTime": 616,
       "invokeCount": 1,
       "sourceSize": 5283,
       "distSize": 0
@@ -196,11 +505,11 @@
         },
         {
           "name": "vite:css",
-          "transform": 64
+          "transform": 29
         },
         {
           "name": "vite:vue",
-          "transform": 6
+          "transform": 3
         },
         {
           "name": "vite:css-post",
@@ -208,7 +517,7 @@
         }
       ],
       "virtual": true,
-      "totalTime": 70,
+      "totalTime": 32,
       "invokeCount": 1,
       "sourceSize": 3195,
       "distSize": 0
@@ -219,7 +528,65 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 540
+          "transform": 370
+        },
+        {
+          "name": "vite:vue",
+          "transform": 4
+        },
+        {
+          "name": "nuxt:imports-transform",
+          "transform": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "ssr-styles",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 376,
+      "invokeCount": 1,
+      "sourceSize": 3283,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue?vue&type=style&index=0&scoped=df79c84d&lang.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 1
+        },
+        {
+          "name": "vite:css",
+          "transform": 33
+        },
+        {
+          "name": "vite:vue",
+          "transform": 8
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 42,
+      "invokeCount": 1,
+      "sourceSize": 1494,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 549
         },
         {
           "name": "vite:vue",
@@ -227,7 +594,7 @@
         },
         {
           "name": "nuxt:imports-transform",
-          "transform": 11
+          "transform": 2
         },
         {
           "name": "vite:resolve",
@@ -240,64 +607,6 @@
       ],
       "virtual": false,
       "totalTime": 554,
-      "invokeCount": 1,
-      "sourceSize": 3283,
-      "distSize": 0
-    },
-    {
-      "id": "/Users/mac/anna-hair-expert/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue?vue&type=style&index=0&scoped=df79c84d&lang.css",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:vue",
-          "transform": 0
-        },
-        {
-          "name": "vite:css",
-          "transform": 33
-        },
-        {
-          "name": "vite:vue",
-          "transform": 2
-        },
-        {
-          "name": "vite:css-post",
-          "transform": 0
-        }
-      ],
-      "virtual": true,
-      "totalTime": 35,
-      "invokeCount": 1,
-      "sourceSize": 1494,
-      "distSize": 0
-    },
-    {
-      "id": "/Users/mac/anna-hair-expert/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 403
-        },
-        {
-          "name": "vite:vue",
-          "transform": 4
-        },
-        {
-          "name": "nuxt:imports-transform",
-          "transform": 3
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "ssr-styles",
-          "resolveId": 1
-        }
-      ],
-      "virtual": false,
-      "totalTime": 410,
       "invokeCount": 1,
       "sourceSize": 4089,
       "distSize": 0
@@ -316,7 +625,7 @@
         },
         {
           "name": "vite:vue",
-          "transform": 4
+          "transform": 3
         },
         {
           "name": "vite:css-post",
@@ -324,7 +633,7 @@
         }
       ],
       "virtual": true,
-      "totalTime": 34,
+      "totalTime": 33,
       "invokeCount": 1,
       "sourceSize": 1946,
       "distSize": 0
@@ -335,11 +644,11 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 183
+          "transform": 863
         },
         {
           "name": "vite:resolve",
-          "resolveId": 0
+          "resolveId": 1
         },
         {
           "name": "vite:resolve",
@@ -347,7 +656,7 @@
         }
       ],
       "virtual": false,
-      "totalTime": 183,
+      "totalTime": 863,
       "invokeCount": 1,
       "sourceSize": 4451,
       "distSize": 0
@@ -358,7 +667,7 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 743
+          "transform": 829
         },
         {
           "name": "vite:resolve",
@@ -366,7 +675,7 @@
         },
         {
           "name": "vite:resolve",
-          "resolveId": 0
+          "resolveId": 1
         },
         {
           "name": "vite:resolve",
@@ -374,11 +683,11 @@
         },
         {
           "name": "vite:resolve",
-          "resolveId": 0
+          "resolveId": 1
         }
       ],
       "virtual": false,
-      "totalTime": 743,
+      "totalTime": 829,
       "invokeCount": 1,
       "sourceSize": 20287,
       "distSize": 0
@@ -389,7 +698,7 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 179
+          "transform": 861
         },
         {
           "name": "vite:resolve",
@@ -405,7 +714,7 @@
         },
         {
           "name": "vite:resolve",
-          "resolveId": 0
+          "resolveId": 1
         },
         {
           "name": "vite:resolve",
@@ -413,7 +722,7 @@
         }
       ],
       "virtual": false,
-      "totalTime": 179,
+      "totalTime": 861,
       "invokeCount": 1,
       "sourceSize": 3864,
       "distSize": 0
@@ -424,7 +733,7 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 733
+          "transform": 847
         },
         {
           "name": "vite:define",
@@ -432,7 +741,7 @@
         },
         {
           "name": "vite:resolve",
-          "resolveId": 1
+          "resolveId": 0
         },
         {
           "name": "vite:resolve",
@@ -440,7 +749,7 @@
         }
       ],
       "virtual": false,
-      "totalTime": 733,
+      "totalTime": 847,
       "invokeCount": 1,
       "sourceSize": 2633,
       "distSize": 0
@@ -451,15 +760,15 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 744
+          "transform": 1020
         },
         {
           "name": "vite:resolve",
-          "resolveId": 1
+          "resolveId": 0
         }
       ],
       "virtual": false,
-      "totalTime": 744,
+      "totalTime": 1020,
       "invokeCount": 1,
       "sourceSize": 1035,
       "distSize": 0
@@ -470,15 +779,15 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 5
+          "transform": 109
         },
         {
           "name": "vite:resolve",
-          "resolveId": 0
+          "resolveId": 1
         }
       ],
       "virtual": false,
-      "totalTime": 5,
+      "totalTime": 109,
       "invokeCount": 1,
       "sourceSize": 11,
       "distSize": 0
@@ -489,15 +798,15 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 7
+          "transform": 175
         },
         {
           "name": "vite:resolve",
-          "resolveId": 0
+          "resolveId": 1
         }
       ],
       "virtual": false,
-      "totalTime": 7,
+      "totalTime": 175,
       "invokeCount": 1,
       "sourceSize": 11,
       "distSize": 0
@@ -508,15 +817,15 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 6
+          "transform": 159
         },
         {
           "name": "vite:resolve",
-          "resolveId": 0
+          "resolveId": 1
         }
       ],
       "virtual": false,
-      "totalTime": 6,
+      "totalTime": 159,
       "invokeCount": 1,
       "sourceSize": 11,
       "distSize": 0
@@ -527,15 +836,15 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 6
+          "transform": 153
         },
         {
           "name": "vite:resolve",
-          "resolveId": 0
+          "resolveId": 1
         }
       ],
       "virtual": false,
-      "totalTime": 6,
+      "totalTime": 153,
       "invokeCount": 1,
       "sourceSize": 11,
       "distSize": 0
@@ -546,15 +855,15 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 8
+          "transform": 147
         },
         {
           "name": "vite:resolve",
-          "resolveId": 0
+          "resolveId": 1
         }
       ],
       "virtual": false,
-      "totalTime": 8,
+      "totalTime": 147,
       "invokeCount": 1,
       "sourceSize": 11,
       "distSize": 0
@@ -565,7 +874,7 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 66
+          "transform": 205
         },
         {
           "name": "vite:resolve",
@@ -573,7 +882,7 @@
         }
       ],
       "virtual": false,
-      "totalTime": 66,
+      "totalTime": 205,
       "invokeCount": 1,
       "sourceSize": 169,
       "distSize": 0
@@ -584,15 +893,15 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 9
+          "transform": 144
         },
         {
           "name": "vite:resolve",
-          "resolveId": 0
+          "resolveId": 1
         }
       ],
       "virtual": false,
-      "totalTime": 9,
+      "totalTime": 144,
       "invokeCount": 1,
       "sourceSize": 11,
       "distSize": 0
@@ -603,19 +912,19 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 56
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
+          "transform": 200
         },
         {
           "name": "vite:resolve",
           "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
         }
       ],
       "virtual": false,
-      "totalTime": 56,
+      "totalTime": 200,
       "invokeCount": 1,
       "sourceSize": 114,
       "distSize": 0
@@ -626,7 +935,7 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 57
+          "transform": 198
         },
         {
           "name": "vite:resolve",
@@ -634,7 +943,7 @@
         }
       ],
       "virtual": false,
-      "totalTime": 57,
+      "totalTime": 198,
       "invokeCount": 1,
       "sourceSize": 383,
       "distSize": 0
@@ -645,15 +954,15 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 176
+          "transform": 123
         },
         {
           "name": "vite:resolve",
-          "resolveId": 0
+          "resolveId": 1
         }
       ],
       "virtual": false,
-      "totalTime": 176,
+      "totalTime": 123,
       "invokeCount": 1,
       "sourceSize": 1009,
       "distSize": 0
@@ -664,7 +973,7 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 55
+          "transform": 204
         },
         {
           "name": "vite:resolve",
@@ -672,7 +981,7 @@
         }
       ],
       "virtual": false,
-      "totalTime": 55,
+      "totalTime": 204,
       "invokeCount": 1,
       "sourceSize": 11,
       "distSize": 0
@@ -683,15 +992,15 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 58
+          "transform": 201
         },
         {
           "name": "vite:resolve",
-          "resolveId": 0
+          "resolveId": 1
         }
       ],
       "virtual": false,
-      "totalTime": 58,
+      "totalTime": 201,
       "invokeCount": 1,
       "sourceSize": 3533,
       "distSize": 0
@@ -702,7 +1011,7 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 65
+          "transform": 208
         },
         {
           "name": "vite:resolve",
@@ -710,11 +1019,11 @@
         },
         {
           "name": "vite:resolve",
-          "resolveId": 1
+          "resolveId": 0
         }
       ],
       "virtual": false,
-      "totalTime": 65,
+      "totalTime": 208,
       "invokeCount": 1,
       "sourceSize": 640,
       "distSize": 0
@@ -725,7 +1034,7 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 76
+          "transform": 532
         },
         {
           "name": "vite:define",
@@ -733,11 +1042,11 @@
         },
         {
           "name": "vite:resolve",
-          "resolveId": 0
+          "resolveId": 1
         }
       ],
       "virtual": false,
-      "totalTime": 76,
+      "totalTime": 532,
       "invokeCount": 1,
       "sourceSize": 34512,
       "distSize": 0
@@ -748,19 +1057,19 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 450
+          "transform": 1377
         },
         {
           "name": "vite:define",
-          "transform": 1
+          "transform": 2
         },
         {
           "name": "vite:resolve",
-          "resolveId": 0
+          "resolveId": 1
         }
       ],
       "virtual": false,
-      "totalTime": 451,
+      "totalTime": 1379,
       "invokeCount": 1,
       "sourceSize": 239557,
       "distSize": 0
@@ -771,19 +1080,19 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 742
+          "transform": 130
         },
         {
           "name": "vite:define",
-          "transform": 0
+          "transform": 1
         },
         {
           "name": "vite:resolve",
-          "resolveId": 0
+          "resolveId": 1
         }
       ],
       "virtual": false,
-      "totalTime": 742,
+      "totalTime": 131,
       "invokeCount": 1,
       "sourceSize": 46921,
       "distSize": 0
@@ -794,10 +1103,532 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 573
+          "transform": 704
         },
         {
           "name": "vite:define",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 704,
+      "invokeCount": 1,
+      "sourceSize": 18760,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/cookie-es/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 940
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 3
+        }
+      ],
+      "virtual": false,
+      "totalTime": 940,
+      "invokeCount": 1,
+      "sourceSize": 3644,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/defu/dist/defu.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 998
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 998,
+      "invokeCount": 1,
+      "sourceSize": 1917,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/destr/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 860
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 860,
+      "invokeCount": 1,
+      "sourceSize": 2207,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/devalue/index.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 828
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 828,
+      "invokeCount": 1,
+      "sourceSize": 141,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/devalue/src/constants.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 207
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 207,
+      "invokeCount": 1,
+      "sourceSize": 183,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/devalue/src/parse.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 384
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 384,
+      "invokeCount": 1,
+      "sourceSize": 3053,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/devalue/src/stringify.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 385
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 385,
+      "invokeCount": 1,
+      "sourceSize": 4304,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/devalue/src/uneval.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 378
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 378,
+      "invokeCount": 1,
+      "sourceSize": 6924,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/devalue/src/utils.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 212
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 212,
+      "invokeCount": 1,
+      "sourceSize": 1944,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/h3/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 885
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 885,
+      "invokeCount": 1,
+      "sourceSize": 60155,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/hookable/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 867
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 867,
+      "invokeCount": 1,
+      "sourceSize": 8302,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/iron-webcrypto/dist/index.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 944
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 944,
+      "invokeCount": 1,
+      "sourceSize": 11782,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/klona/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 379
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 379,
+      "invokeCount": 1,
+      "sourceSize": 1531,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/nuxt/dist/app/compat/idle-callback.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 1015
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 1015,
+      "invokeCount": 1,
+      "sourceSize": 456,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/nuxt/dist/app/components/injections.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 912
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 912,
+      "invokeCount": 1,
+      "sourceSize": 103,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/nuxt/dist/app/components/island-renderer.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 916
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 916,
+      "invokeCount": 1,
+      "sourceSize": 719,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/nuxt/dist/app/components/nuxt-error-page.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 927
+        },
+        {
+          "name": "vite:vue",
+          "transform": 8
+        },
+        {
+          "name": "replace",
+          "transform": 1
+        },
+        {
+          "name": "vite:build-import-analysis",
+          "transform": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 937,
+      "invokeCount": 1,
+      "sourceSize": 1688,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/nuxt/dist/app/components/nuxt-link.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 198
+        },
+        {
+          "name": "replace",
+          "transform": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 200,
+      "invokeCount": 1,
+      "sourceSize": 10108,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/nuxt/dist/app/components/nuxt-root.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 103
+        },
+        {
+          "name": "vite:vue",
+          "transform": 41
+        },
+        {
+          "name": "replace",
+          "transform": 1
+        },
+        {
+          "name": "nuxt:tree-shake-composables:transform",
+          "transform": 1
+        },
+        {
+          "name": "vite:build-import-analysis",
+          "transform": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 147,
+      "invokeCount": 1,
+      "sourceSize": 2279,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/nuxt/dist/app/components/test-component-wrapper.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 949
+        },
+        {
+          "name": "vite:build-import-analysis",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 949,
+      "invokeCount": 1,
+      "sourceSize": 943,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/nuxt/dist/app/composables/chunk.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 955
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 955,
+      "invokeCount": 1,
+      "sourceSize": 889,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/nuxt/dist/app/composables/error.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 859
+        },
+        {
+          "name": "replace",
           "transform": 0
         },
         {
@@ -810,22 +1641,487 @@
         },
         {
           "name": "vite:resolve",
-          "resolveId": 1
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
         }
       ],
       "virtual": false,
-      "totalTime": 573,
+      "totalTime": 859,
       "invokeCount": 1,
-      "sourceSize": 18760,
+      "sourceSize": 1022,
       "distSize": 0
     },
     {
-      "id": "/Users/mac/anna-hair-expert/node_modules/cookie-es/dist/index.mjs",
+      "id": "/Users/mac/anna-hair-expert/node_modules/nuxt/dist/app/composables/manifest.js",
       "deps": [],
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 727
+          "transform": 881
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 881,
+      "invokeCount": 1,
+      "sourceSize": 984,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/nuxt/dist/app/composables/payload.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 850
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "vite:build-import-analysis",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 850,
+      "invokeCount": 1,
+      "sourceSize": 3787,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/nuxt/dist/app/composables/preload.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 197
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 197,
+      "invokeCount": 1,
+      "sourceSize": 1595,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/nuxt/dist/app/composables/ready.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 867
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 867,
+      "invokeCount": 1,
+      "sourceSize": 412,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/nuxt/dist/app/composables/router.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 868
+        },
+        {
+          "name": "replace",
+          "transform": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 869,
+      "invokeCount": 1,
+      "sourceSize": 5967,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/nuxt/dist/app/config.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 1006
+        },
+        {
+          "name": "replace",
+          "transform": 1
+        },
+        {
+          "name": "vite:define",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "alias",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 1007,
+      "invokeCount": 1,
+      "sourceSize": 1574,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/nuxt/dist/app/entry.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 1
+        },
+        {
+          "name": "replace",
+          "transform": 4
+        }
+      ],
+      "virtual": false,
+      "totalTime": 5,
+      "invokeCount": 1,
+      "sourceSize": 2259,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 966
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        },
+        {
+          "name": "unctx:transform",
+          "transform": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 966,
+      "invokeCount": 1,
+      "sourceSize": 356,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/nuxt/dist/app/nuxt.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 66
+        },
+        {
+          "name": "replace",
+          "transform": 3
+        },
+        {
+          "name": "vite:define",
+          "transform": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 2
+        },
+        {
+          "name": "alias",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 70,
+      "invokeCount": 1,
+      "sourceSize": 6071,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/nuxt/dist/app/plugins/check-outdated-build.client.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 135
+        },
+        {
+          "name": "replace",
+          "transform": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 135,
+      "invokeCount": 1,
+      "sourceSize": 795,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/nuxt/dist/app/plugins/chunk-reload.client.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 126
+        }
+      ],
+      "virtual": false,
+      "totalTime": 126,
+      "invokeCount": 1,
+      "sourceSize": 1047,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/nuxt/dist/app/plugins/payload.client.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 89
+        },
+        {
+          "name": "vite:define",
+          "transform": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 90,
+      "invokeCount": 1,
+      "sourceSize": 1103,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/nuxt/dist/app/plugins/revive-payload.client.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 58
+        },
+        {
+          "name": "unctx:transform",
+          "transform": 5
+        }
+      ],
+      "virtual": false,
+      "totalTime": 63,
+      "invokeCount": 1,
+      "sourceSize": 1542,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/nuxt/dist/app/plugins/router.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 97
+        },
+        {
+          "name": "replace",
+          "transform": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 99,
+      "invokeCount": 1,
+      "sourceSize": 6903,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/nuxt/dist/head/runtime/plugins/unhead.js",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 80
+        },
+        {
+          "name": "replace",
+          "transform": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 81,
+      "invokeCount": 1,
+      "sourceSize": 1315,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/ofetch/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 174
         },
         {
           "name": "vite:resolve",
@@ -833,18 +2129,1206 @@
         }
       ],
       "virtual": false,
-      "totalTime": 727,
+      "totalTime": 174,
       "invokeCount": 1,
-      "sourceSize": 3644,
+      "sourceSize": 891,
       "distSize": 0
     },
     {
-      "id": "/Users/mac/anna-hair-expert/node_modules/defu/dist/defu.mjs",
+      "id": "/Users/mac/anna-hair-expert/node_modules/ofetch/dist/shared/ofetch.00501375.mjs",
       "deps": [],
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 764
+          "transform": 958
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 958,
+      "invokeCount": 1,
+      "sourceSize": 8818,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/pathe/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 550
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 550,
+      "invokeCount": 1,
+      "sourceSize": 272,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/pathe/dist/shared/pathe.92c04245.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 228
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 228,
+      "invokeCount": 1,
+      "sourceSize": 6215,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/radix3/dist/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 1000
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 1000,
+      "invokeCount": 1,
+      "sourceSize": 7089,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/a11y.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 142
+        },
+        {
+          "name": "vite:css",
+          "transform": 858
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 1000,
+      "invokeCount": 1,
+      "sourceSize": 143,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/a11y.css?inline&used",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 0,
+      "sourceSize": 0,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/a11y.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 195
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 195,
+      "invokeCount": 1,
+      "sourceSize": 10980,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/autoplay.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 157
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 157,
+      "invokeCount": 1,
+      "sourceSize": 8732,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/controller.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 189
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 189,
+      "invokeCount": 1,
+      "sourceSize": 6504,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/effect-cards.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 178
+        },
+        {
+          "name": "vite:css",
+          "transform": 823
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 1001,
+      "invokeCount": 1,
+      "sourceSize": 204,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/effect-cards.css?inline&used",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 0,
+      "sourceSize": 0,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/effect-cards.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 124
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 124,
+      "invokeCount": 1,
+      "sourceSize": 4546,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/effect-coverflow.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 126
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 126,
+      "invokeCount": 1,
+      "sourceSize": 4376,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/effect-creative.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 177
+        },
+        {
+          "name": "vite:css",
+          "transform": 824
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 1001,
+      "invokeCount": 1,
+      "sourceSize": 184,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/effect-creative.css?inline&used",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 0,
+      "sourceSize": 0,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/effect-creative.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 125
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 125,
+      "invokeCount": 1,
+      "sourceSize": 4947,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/effect-cube.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 177
+        },
+        {
+          "name": "vite:css",
+          "transform": 823
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 1000,
+      "invokeCount": 1,
+      "sourceSize": 1502,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/effect-cube.css?inline&used",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 0,
+      "sourceSize": 0,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/effect-cube.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 175
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 175,
+      "invokeCount": 1,
+      "sourceSize": 6569,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/effect-fade.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 185
+        },
+        {
+          "name": "vite:css",
+          "transform": 815
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 1000,
+      "invokeCount": 1,
+      "sourceSize": 389,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/effect-fade.css?inline&used",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 0,
+      "sourceSize": 0,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/effect-fade.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 166
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 166,
+      "invokeCount": 1,
+      "sourceSize": 1895,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/effect-flip.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 182
+        },
+        {
+          "name": "vite:css",
+          "transform": 818
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 1000,
+      "invokeCount": 1,
+      "sourceSize": 789,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/effect-flip.css?inline&used",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 0,
+      "sourceSize": 0,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/effect-flip.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 124
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 124,
+      "invokeCount": 1,
+      "sourceSize": 3802,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/free-mode.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 186
+        },
+        {
+          "name": "vite:css",
+          "transform": 815
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 1001,
+      "invokeCount": 1,
+      "sourceSize": 98,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/free-mode.css?inline&used",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 0,
+      "sourceSize": 0,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/free-mode.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 164
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 164,
+      "invokeCount": 1,
+      "sourceSize": 8358,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/grid.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 186
+        },
+        {
+          "name": "vite:css",
+          "transform": 813
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 999,
+      "invokeCount": 1,
+      "sourceSize": 141,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/grid.css?inline&used",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 0,
+      "sourceSize": 0,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/grid.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 160
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 160,
+      "invokeCount": 1,
+      "sourceSize": 4565,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/hash-navigation.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 163
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 163,
+      "invokeCount": 1,
+      "sourceSize": 3521,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/history.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 203
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 203,
+      "invokeCount": 1,
+      "sourceSize": 4161,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/index.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 152
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 152,
+      "invokeCount": 1,
+      "sourceSize": 1253,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/keyboard.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 134
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 134,
+      "invokeCount": 1,
+      "sourceSize": 4351,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/manipulation.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 163
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 163,
+      "invokeCount": 1,
+      "sourceSize": 4993,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/mousewheel.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 153
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 153,
+      "invokeCount": 1,
+      "sourceSize": 14752,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/navigation.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 187
+        },
+        {
+          "name": "vite:css",
+          "transform": 813
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 1000,
+      "invokeCount": 1,
+      "sourceSize": 2170,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/navigation.css?inline&used",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 0,
+      "sourceSize": 0,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/navigation.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 149
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 149,
+      "invokeCount": 1,
+      "sourceSize": 5926,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/pagination.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 190
+        },
+        {
+          "name": "vite:css",
+          "transform": 808
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 998,
+      "invokeCount": 1,
+      "sourceSize": 6525,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/pagination.css?inline&used",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 0,
+      "sourceSize": 0,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/pagination.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 140
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 140,
+      "invokeCount": 1,
+      "sourceSize": 17902,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/parallax.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 168
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 168,
+      "invokeCount": 1,
+      "sourceSize": 4011,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/scrollbar.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 180
+        },
+        {
+          "name": "vite:css",
+          "transform": 807
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 987,
+      "invokeCount": 1,
+      "sourceSize": 1775,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/scrollbar.css?inline&used",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 0,
+      "sourceSize": 0,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/scrollbar.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 161
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 161,
+      "invokeCount": 1,
+      "sourceSize": 10263,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/thumbs.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 157
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 157,
+      "invokeCount": 1,
+      "sourceSize": 7177,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/virtual.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 128
+        },
+        {
+          "name": "vite:css",
+          "transform": 807
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 935,
+      "invokeCount": 1,
+      "sourceSize": 498,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/virtual.css?inline&used",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 0,
+      "sourceSize": 0,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/virtual.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 128
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 3
+        }
+      ],
+      "virtual": false,
+      "totalTime": 128,
+      "invokeCount": 1,
+      "sourceSize": 11389,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/zoom.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 112
+        },
+        {
+          "name": "vite:css",
+          "transform": 807
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 919,
+      "invokeCount": 1,
+      "sourceSize": 434,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/zoom.css?inline&used",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 0,
+      "sourceSize": 0,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/zoom.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 172
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 172,
+      "invokeCount": 1,
+      "sourceSize": 21497,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/shared/classes-to-selector.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 143
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 143,
+      "invokeCount": 1,
+      "sourceSize": 234,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/shared/create-element-if-not-defined.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 142
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 142,
+      "invokeCount": 1,
+      "sourceSize": 693,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/shared/create-shadow.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 228
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
         },
         {
           "name": "vite:resolve",
@@ -860,34 +3344,182 @@
         }
       ],
       "virtual": false,
-      "totalTime": 764,
+      "totalTime": 228,
       "invokeCount": 1,
-      "sourceSize": 1917,
+      "sourceSize": 561,
       "distSize": 0
     },
     {
-      "id": "/Users/mac/anna-hair-expert/node_modules/destr/dist/index.mjs",
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/shared/effect-init.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 126
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 126,
+      "invokeCount": 1,
+      "sourceSize": 1824,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/shared/effect-target.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 129
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 129,
+      "invokeCount": 1,
+      "sourceSize": 366,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/shared/effect-virtual-transition-end.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 133
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 133,
+      "invokeCount": 1,
+      "sourceSize": 1412,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/shared/ssr-window.esm.mjs",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 143
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 143,
+      "invokeCount": 1,
+      "sourceSize": 2765,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/shared/swiper-core.mjs",
       "deps": [],
       "plugins": [
         {
           "name": "vite:load-fallback",
           "transform": 130
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
         },
         {
           "name": "vite:resolve",
@@ -901,39 +3533,16 @@
       "virtual": false,
       "totalTime": 130,
       "invokeCount": 1,
-      "sourceSize": 2207,
+      "sourceSize": 117698,
       "distSize": 0
     },
     {
-      "id": "/Users/mac/anna-hair-expert/node_modules/devalue/index.js",
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/shared/update-on-virtual-data.mjs",
       "deps": [],
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 771
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        }
-      ],
-      "virtual": false,
-      "totalTime": 771,
-      "invokeCount": 1,
-      "sourceSize": 141,
-      "distSize": 0
-    },
-    {
-      "id": "/Users/mac/anna-hair-expert/node_modules/devalue/src/constants.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 50
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
+          "transform": 115
         },
         {
           "name": "vite:resolve",
@@ -941,75 +3550,18 @@
         }
       ],
       "virtual": false,
-      "totalTime": 50,
+      "totalTime": 115,
       "invokeCount": 1,
-      "sourceSize": 183,
+      "sourceSize": 4186,
       "distSize": 0
     },
     {
-      "id": "/Users/mac/anna-hair-expert/node_modules/devalue/src/parse.js",
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/shared/update-swiper.mjs",
       "deps": [],
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 575
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        }
-      ],
-      "virtual": false,
-      "totalTime": 575,
-      "invokeCount": 1,
-      "sourceSize": 3053,
-      "distSize": 0
-    },
-    {
-      "id": "/Users/mac/anna-hair-expert/node_modules/devalue/src/stringify.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 585
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        }
-      ],
-      "virtual": false,
-      "totalTime": 585,
-      "invokeCount": 1,
-      "sourceSize": 4304,
-      "distSize": 0
-    },
-    {
-      "id": "/Users/mac/anna-hair-expert/node_modules/devalue/src/uneval.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 585
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        }
-      ],
-      "virtual": false,
-      "totalTime": 585,
-      "invokeCount": 1,
-      "sourceSize": 6924,
-      "distSize": 0
-    },
-    {
-      "id": "/Users/mac/anna-hair-expert/node_modules/devalue/src/utils.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 46
+          "transform": 112
         },
         {
           "name": "vite:resolve",
@@ -1021,561 +3573,13 @@
         }
       ],
       "virtual": false,
-      "totalTime": 46,
+      "totalTime": 112,
       "invokeCount": 1,
-      "sourceSize": 1944,
+      "sourceSize": 10414,
       "distSize": 0
     },
     {
-      "id": "/Users/mac/anna-hair-expert/node_modules/h3/dist/index.mjs",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 149
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        }
-      ],
-      "virtual": false,
-      "totalTime": 149,
-      "invokeCount": 1,
-      "sourceSize": 60155,
-      "distSize": 0
-    },
-    {
-      "id": "/Users/mac/anna-hair-expert/node_modules/hookable/dist/index.mjs",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 137
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        }
-      ],
-      "virtual": false,
-      "totalTime": 137,
-      "invokeCount": 1,
-      "sourceSize": 8302,
-      "distSize": 0
-    },
-    {
-      "id": "/Users/mac/anna-hair-expert/node_modules/iron-webcrypto/dist/index.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 716
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        }
-      ],
-      "virtual": false,
-      "totalTime": 716,
-      "invokeCount": 1,
-      "sourceSize": 11782,
-      "distSize": 0
-    },
-    {
-      "id": "/Users/mac/anna-hair-expert/node_modules/klona/dist/index.mjs",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 577
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        }
-      ],
-      "virtual": false,
-      "totalTime": 577,
-      "invokeCount": 1,
-      "sourceSize": 1531,
-      "distSize": 0
-    },
-    {
-      "id": "/Users/mac/anna-hair-expert/node_modules/nuxt/dist/app/compat/idle-callback.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 456
-        },
-        {
-          "name": "replace",
-          "transform": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        }
-      ],
-      "virtual": false,
-      "totalTime": 456,
-      "invokeCount": 1,
-      "sourceSize": 456,
-      "distSize": 0
-    },
-    {
-      "id": "/Users/mac/anna-hair-expert/node_modules/nuxt/dist/app/components/injections.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 133
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        }
-      ],
-      "virtual": false,
-      "totalTime": 133,
-      "invokeCount": 1,
-      "sourceSize": 103,
-      "distSize": 0
-    },
-    {
-      "id": "/Users/mac/anna-hair-expert/node_modules/nuxt/dist/app/components/island-renderer.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 377
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        }
-      ],
-      "virtual": false,
-      "totalTime": 377,
-      "invokeCount": 1,
-      "sourceSize": 719,
-      "distSize": 0
-    },
-    {
-      "id": "/Users/mac/anna-hair-expert/node_modules/nuxt/dist/app/components/nuxt-error-page.vue",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 589
-        },
-        {
-          "name": "vite:vue",
-          "transform": 6
-        },
-        {
-          "name": "replace",
-          "transform": 0
-        },
-        {
-          "name": "vite:build-import-analysis",
-          "transform": 0
-        }
-      ],
-      "virtual": false,
-      "totalTime": 595,
-      "invokeCount": 1,
-      "sourceSize": 1688,
-      "distSize": 0
-    },
-    {
-      "id": "/Users/mac/anna-hair-expert/node_modules/nuxt/dist/app/components/nuxt-link.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 360
-        },
-        {
-          "name": "replace",
-          "transform": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        }
-      ],
-      "virtual": false,
-      "totalTime": 361,
-      "invokeCount": 1,
-      "sourceSize": 10108,
-      "distSize": 0
-    },
-    {
-      "id": "/Users/mac/anna-hair-expert/node_modules/nuxt/dist/app/components/nuxt-root.vue",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 118
-        },
-        {
-          "name": "vite:vue",
-          "transform": 26
-        },
-        {
-          "name": "replace",
-          "transform": 0
-        },
-        {
-          "name": "nuxt:tree-shake-composables:transform",
-          "transform": 1
-        },
-        {
-          "name": "vite:build-import-analysis",
-          "transform": 0
-        }
-      ],
-      "virtual": false,
-      "totalTime": 145,
-      "invokeCount": 1,
-      "sourceSize": 2279,
-      "distSize": 0
-    },
-    {
-      "id": "/Users/mac/anna-hair-expert/node_modules/nuxt/dist/app/components/test-component-wrapper.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 744
-        },
-        {
-          "name": "vite:build-import-analysis",
-          "transform": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        }
-      ],
-      "virtual": false,
-      "totalTime": 744,
-      "invokeCount": 1,
-      "sourceSize": 943,
-      "distSize": 0
-    },
-    {
-      "id": "/Users/mac/anna-hair-expert/node_modules/nuxt/dist/app/composables/chunk.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 664
-        },
-        {
-          "name": "replace",
-          "transform": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        }
-      ],
-      "virtual": false,
-      "totalTime": 664,
-      "invokeCount": 1,
-      "sourceSize": 889,
-      "distSize": 0
-    },
-    {
-      "id": "/Users/mac/anna-hair-expert/node_modules/nuxt/dist/app/composables/error.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 148
-        },
-        {
-          "name": "replace",
-          "transform": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        }
-      ],
-      "virtual": false,
-      "totalTime": 148,
-      "invokeCount": 1,
-      "sourceSize": 1022,
-      "distSize": 0
-    },
-    {
-      "id": "/Users/mac/anna-hair-expert/node_modules/nuxt/dist/app/composables/manifest.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 133
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        }
-      ],
-      "virtual": false,
-      "totalTime": 133,
-      "invokeCount": 1,
-      "sourceSize": 984,
-      "distSize": 0
-    },
-    {
-      "id": "/Users/mac/anna-hair-expert/node_modules/nuxt/dist/app/composables/payload.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 137
-        },
-        {
-          "name": "replace",
-          "transform": 0
-        },
-        {
-          "name": "vite:build-import-analysis",
-          "transform": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        }
-      ],
-      "virtual": false,
-      "totalTime": 138,
-      "invokeCount": 1,
-      "sourceSize": 3787,
-      "distSize": 0
-    },
-    {
-      "id": "/Users/mac/anna-hair-expert/node_modules/nuxt/dist/app/composables/preload.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 50
-        },
-        {
-          "name": "replace",
-          "transform": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        }
-      ],
-      "virtual": false,
-      "totalTime": 50,
-      "invokeCount": 1,
-      "sourceSize": 1595,
-      "distSize": 0
-    },
-    {
-      "id": "/Users/mac/anna-hair-expert/node_modules/nuxt/dist/app/composables/ready.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 686
-        },
-        {
-          "name": "replace",
-          "transform": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        }
-      ],
-      "virtual": false,
-      "totalTime": 687,
-      "invokeCount": 1,
-      "sourceSize": 412,
-      "distSize": 0
-    },
-    {
-      "id": "/Users/mac/anna-hair-expert/node_modules/nuxt/dist/app/composables/router.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 126
-        },
-        {
-          "name": "replace",
-          "transform": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        }
-      ],
-      "virtual": false,
-      "totalTime": 126,
-      "invokeCount": 1,
-      "sourceSize": 5967,
-      "distSize": 0
-    },
-    {
-      "id": "/Users/mac/anna-hair-expert/node_modules/nuxt/dist/app/config.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 753
-        },
-        {
-          "name": "replace",
-          "transform": 0
-        },
-        {
-          "name": "vite:define",
-          "transform": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "alias",
-          "resolveId": 0
-        }
-      ],
-      "virtual": false,
-      "totalTime": 753,
-      "invokeCount": 1,
-      "sourceSize": 1574,
-      "distSize": 0
-    },
-    {
-      "id": "/Users/mac/anna-hair-expert/node_modules/nuxt/dist/app/entry.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 6
-        },
-        {
-          "name": "replace",
-          "transform": 2
-        }
-      ],
-      "virtual": false,
-      "totalTime": 8,
-      "invokeCount": 1,
-      "sourceSize": 2259,
-      "distSize": 0
-    },
-    {
-      "id": "/Users/mac/anna-hair-expert/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js",
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/shared/utils.mjs",
       "deps": [],
       "plugins": [
         {
@@ -1583,274 +3587,142 @@
           "transform": 142
         },
         {
-          "name": "replace",
-          "transform": 0
+          "name": "vite:resolve",
+          "resolveId": 0
         },
         {
-          "name": "unctx:transform",
-          "transform": 0
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
         }
       ],
       "virtual": false,
       "totalTime": 142,
       "invokeCount": 1,
-      "sourceSize": 356,
+      "sourceSize": 9392,
       "distSize": 0
     },
     {
-      "id": "/Users/mac/anna-hair-expert/node_modules/nuxt/dist/app/nuxt.js",
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/swiper-vue.mjs",
       "deps": [],
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 30
-        },
-        {
-          "name": "replace",
-          "transform": 2
-        },
-        {
-          "name": "vite:define",
-          "transform": 1
+          "transform": 203
         },
         {
           "name": "vite:resolve",
           "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "alias",
-          "resolveId": 28
-        },
-        {
-          "name": "alias",
-          "resolveId": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
         }
       ],
       "virtual": false,
-      "totalTime": 33,
+      "totalTime": 203,
       "invokeCount": 1,
-      "sourceSize": 6071,
+      "sourceSize": 21210,
       "distSize": 0
     },
     {
-      "id": "/Users/mac/anna-hair-expert/node_modules/nuxt/dist/app/plugins/check-outdated-build.client.js",
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/swiper.css",
       "deps": [],
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 76
+          "transform": 173
         },
         {
-          "name": "replace",
+          "name": "vite:css",
+          "transform": 828
+        },
+        {
+          "name": "vite:css-post",
           "transform": 0
-        }
-      ],
-      "virtual": false,
-      "totalTime": 76,
-      "invokeCount": 1,
-      "sourceSize": 795,
-      "distSize": 0
-    },
-    {
-      "id": "/Users/mac/anna-hair-expert/node_modules/nuxt/dist/app/plugins/chunk-reload.client.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 92
-        }
-      ],
-      "virtual": false,
-      "totalTime": 92,
-      "invokeCount": 1,
-      "sourceSize": 1047,
-      "distSize": 0
-    },
-    {
-      "id": "/Users/mac/anna-hair-expert/node_modules/nuxt/dist/app/plugins/payload.client.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 80
-        },
-        {
-          "name": "vite:define",
-          "transform": 0
-        }
-      ],
-      "virtual": false,
-      "totalTime": 80,
-      "invokeCount": 1,
-      "sourceSize": 1103,
-      "distSize": 0
-    },
-    {
-      "id": "/Users/mac/anna-hair-expert/node_modules/nuxt/dist/app/plugins/revive-payload.client.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 34
-        },
-        {
-          "name": "unctx:transform",
-          "transform": 3
-        }
-      ],
-      "virtual": false,
-      "totalTime": 37,
-      "invokeCount": 1,
-      "sourceSize": 1542,
-      "distSize": 0
-    },
-    {
-      "id": "/Users/mac/anna-hair-expert/node_modules/nuxt/dist/app/plugins/router.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 48
-        },
-        {
-          "name": "replace",
-          "transform": 1
-        }
-      ],
-      "virtual": false,
-      "totalTime": 49,
-      "invokeCount": 1,
-      "sourceSize": 6903,
-      "distSize": 0
-    },
-    {
-      "id": "/Users/mac/anna-hair-expert/node_modules/nuxt/dist/head/runtime/plugins/unhead.js",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 85
-        },
-        {
-          "name": "replace",
-          "transform": 0
-        }
-      ],
-      "virtual": false,
-      "totalTime": 85,
-      "invokeCount": 1,
-      "sourceSize": 1315,
-      "distSize": 0
-    },
-    {
-      "id": "/Users/mac/anna-hair-expert/node_modules/ofetch/dist/index.mjs",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 168
         },
         {
           "name": "vite:resolve",
-          "resolveId": 1
-        }
-      ],
-      "virtual": false,
-      "totalTime": 168,
-      "invokeCount": 1,
-      "sourceSize": 891,
-      "distSize": 0
-    },
-    {
-      "id": "/Users/mac/anna-hair-expert/node_modules/ofetch/dist/shared/ofetch.00501375.mjs",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 786
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        }
-      ],
-      "virtual": false,
-      "totalTime": 786,
-      "invokeCount": 1,
-      "sourceSize": 8818,
-      "distSize": 0
-    },
-    {
-      "id": "/Users/mac/anna-hair-expert/node_modules/pathe/dist/index.mjs",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 459
+          "resolveId": 2
         },
         {
           "name": "vite:resolve",
@@ -1858,51 +3730,24 @@
         }
       ],
       "virtual": false,
-      "totalTime": 459,
+      "totalTime": 1001,
       "invokeCount": 1,
-      "sourceSize": 272,
+      "sourceSize": 7968,
       "distSize": 0
     },
     {
-      "id": "/Users/mac/anna-hair-expert/node_modules/pathe/dist/shared/pathe.92c04245.mjs",
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/swiper.css?inline&used",
       "deps": [],
       "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 189
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        }
-      ],
-      "virtual": false,
-      "totalTime": 189,
-      "invokeCount": 1,
-      "sourceSize": 6215,
-      "distSize": 0
-    },
-    {
-      "id": "/Users/mac/anna-hair-expert/node_modules/radix3/dist/index.mjs",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 758
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        },
         {
           "name": "vite:resolve",
           "resolveId": 1
         }
       ],
-      "virtual": false,
-      "totalTime": 758,
-      "invokeCount": 1,
-      "sourceSize": 7089,
+      "virtual": true,
+      "totalTime": 0,
+      "invokeCount": 0,
+      "sourceSize": 0,
       "distSize": 0
     },
     {
@@ -1911,19 +3756,19 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 160
+          "transform": 161
         },
         {
           "name": "vite:css",
-          "transform": 955
+          "transform": 1448
         },
         {
           "name": "vite:css-post",
-          "transform": 0
+          "transform": 1
         }
       ],
       "virtual": false,
-      "totalTime": 1115,
+      "totalTime": 1610,
       "invokeCount": 1,
       "sourceSize": 61,
       "distSize": 0
@@ -1934,7 +3779,19 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 99
+          "transform": 144
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
         },
         {
           "name": "vite:resolve",
@@ -1947,18 +3804,6 @@
         {
           "name": "vite:resolve",
           "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
         },
         {
           "name": "vite:resolve",
@@ -1974,15 +3819,15 @@
         },
         {
           "name": "vite:resolve",
-          "resolveId": 0
+          "resolveId": 1
         },
         {
           "name": "vite:resolve",
-          "resolveId": 0
+          "resolveId": 1
         }
       ],
       "virtual": false,
-      "totalTime": 99,
+      "totalTime": 144,
       "invokeCount": 1,
       "sourceSize": 16557,
       "distSize": 0
@@ -1993,15 +3838,15 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 896
+          "transform": 954
         },
         {
           "name": "vite:resolve",
-          "resolveId": 1
+          "resolveId": 2
         }
       ],
       "virtual": false,
-      "totalTime": 896,
+      "totalTime": 954,
       "invokeCount": 1,
       "sourceSize": 348,
       "distSize": 0
@@ -2012,7 +3857,7 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 147
+          "transform": 876
         },
         {
           "name": "vite:resolve",
@@ -2020,7 +3865,7 @@
         }
       ],
       "virtual": false,
-      "totalTime": 147,
+      "totalTime": 876,
       "invokeCount": 1,
       "sourceSize": 3878,
       "distSize": 0
@@ -2031,23 +3876,23 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 575
+          "transform": 397
         },
         {
           "name": "vite:resolve",
-          "resolveId": 1
+          "resolveId": 0
         },
         {
           "name": "vite:resolve",
-          "resolveId": 1
+          "resolveId": 0
         },
         {
           "name": "vite:resolve",
-          "resolveId": 1
+          "resolveId": 0
         }
       ],
       "virtual": false,
-      "totalTime": 575,
+      "totalTime": 397,
       "invokeCount": 1,
       "sourceSize": 895,
       "distSize": 0
@@ -2058,15 +3903,15 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 14
+          "transform": 139
         },
         {
           "name": "vite:resolve",
-          "resolveId": 0
+          "resolveId": 1
         }
       ],
       "virtual": false,
-      "totalTime": 14,
+      "totalTime": 139,
       "invokeCount": 1,
       "sourceSize": 6481,
       "distSize": 0
@@ -2077,7 +3922,7 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 65
+          "transform": 167
         },
         {
           "name": "vite:resolve",
@@ -2089,7 +3934,7 @@
         }
       ],
       "virtual": false,
-      "totalTime": 65,
+      "totalTime": 167,
       "invokeCount": 1,
       "sourceSize": 218,
       "distSize": 0
@@ -2100,7 +3945,7 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 730
+          "transform": 947
         },
         {
           "name": "vite:resolve",
@@ -2108,7 +3953,7 @@
         }
       ],
       "virtual": false,
-      "totalTime": 730,
+      "totalTime": 947,
       "invokeCount": 1,
       "sourceSize": 1129,
       "distSize": 0
@@ -2119,15 +3964,15 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 734
+          "transform": 947
         },
         {
           "name": "vite:resolve",
-          "resolveId": 0
+          "resolveId": 1
         }
       ],
       "virtual": false,
-      "totalTime": 734,
+      "totalTime": 947,
       "invokeCount": 1,
       "sourceSize": 2193,
       "distSize": 0
@@ -2138,15 +3983,15 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 575
+          "transform": 388
         },
         {
           "name": "vite:resolve",
-          "resolveId": 1
+          "resolveId": 0
         }
       ],
       "virtual": false,
-      "totalTime": 575,
+      "totalTime": 388,
       "invokeCount": 1,
       "sourceSize": 1425,
       "distSize": 0
@@ -2157,7 +4002,7 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 32
+          "transform": 167
         },
         {
           "name": "vite:resolve",
@@ -2165,7 +4010,7 @@
         }
       ],
       "virtual": false,
-      "totalTime": 32,
+      "totalTime": 167,
       "invokeCount": 1,
       "sourceSize": 678,
       "distSize": 0
@@ -2176,11 +4021,11 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 574
+          "transform": 394
         },
         {
           "name": "vite:resolve",
-          "resolveId": 1
+          "resolveId": 0
         },
         {
           "name": "vite:resolve",
@@ -2188,7 +4033,7 @@
         }
       ],
       "virtual": false,
-      "totalTime": 574,
+      "totalTime": 394,
       "invokeCount": 1,
       "sourceSize": 2697,
       "distSize": 0
@@ -2199,7 +4044,7 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 556
+          "transform": 388
         },
         {
           "name": "vite:resolve",
@@ -2211,7 +4056,7 @@
         }
       ],
       "virtual": false,
-      "totalTime": 556,
+      "totalTime": 388,
       "invokeCount": 1,
       "sourceSize": 2357,
       "distSize": 0
@@ -2222,7 +4067,7 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 736
+          "transform": 818
         },
         {
           "name": "vite:resolve",
@@ -2230,11 +4075,11 @@
         },
         {
           "name": "vite:resolve",
-          "resolveId": 0
+          "resolveId": 1
         }
       ],
       "virtual": false,
-      "totalTime": 736,
+      "totalTime": 818,
       "invokeCount": 1,
       "sourceSize": 20845,
       "distSize": 0
@@ -2245,7 +4090,7 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 454
+          "transform": 517
         },
         {
           "name": "vite:define",
@@ -2257,7 +4102,7 @@
         }
       ],
       "virtual": false,
-      "totalTime": 459,
+      "totalTime": 522,
       "invokeCount": 1,
       "sourceSize": 147386,
       "distSize": 0
@@ -2268,11 +4113,11 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 190
+          "transform": 56
         },
         {
           "name": "vite:define",
-          "transform": 0
+          "transform": 1
         },
         {
           "name": "vite:resolve",
@@ -2280,7 +4125,7 @@
         },
         {
           "name": "vite:resolve",
-          "resolveId": 0
+          "resolveId": 2
         },
         {
           "name": "vite:resolve",
@@ -2293,34 +4138,6 @@
         {
           "name": "vite:resolve",
           "resolveId": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
         },
         {
           "name": "vite:resolve",
@@ -2357,10 +4174,62 @@
         {
           "name": "vite:resolve",
           "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
         }
       ],
       "virtual": false,
-      "totalTime": 190,
+      "totalTime": 57,
       "invokeCount": 1,
       "sourceSize": 517,
       "distSize": 0
@@ -2379,7 +4248,7 @@
         },
         {
           "name": "alias",
-          "resolveId": 2
+          "resolveId": 3
         }
       ],
       "virtual": true,
@@ -2402,7 +4271,7 @@
         },
         {
           "name": "alias",
-          "resolveId": 2
+          "resolveId": 1
         }
       ],
       "virtual": true,
@@ -2454,7 +4323,7 @@
       "virtual": true,
       "totalTime": 0,
       "invokeCount": 1,
-      "sourceSize": 107,
+      "sourceSize": 531,
       "distSize": 0
     },
     {
@@ -2471,7 +4340,7 @@
         },
         {
           "name": "alias",
-          "resolveId": 2
+          "resolveId": 3
         }
       ],
       "virtual": true,
@@ -2517,7 +4386,7 @@
         },
         {
           "name": "alias",
-          "resolveId": 2
+          "resolveId": 1
         }
       ],
       "virtual": true,
@@ -2540,7 +4409,7 @@
         },
         {
           "name": "alias",
-          "resolveId": 4
+          "resolveId": 8
         }
       ],
       "virtual": true,
@@ -2583,7 +4452,7 @@
         },
         {
           "name": "virtual",
-          "resolveId": 0
+          "resolveId": 1
         },
         {
           "name": "alias",
@@ -2595,15 +4464,7 @@
         },
         {
           "name": "alias",
-          "resolveId": 1
-        },
-        {
-          "name": "alias",
-          "resolveId": 3
-        },
-        {
-          "name": "alias",
-          "resolveId": 1
+          "resolveId": 2
         },
         {
           "name": "alias",
@@ -2611,7 +4472,15 @@
         },
         {
           "name": "alias",
-          "resolveId": 1
+          "resolveId": 2
+        },
+        {
+          "name": "alias",
+          "resolveId": 3
+        },
+        {
+          "name": "alias",
+          "resolveId": 2
         }
       ],
       "virtual": true,
@@ -2658,7 +4527,7 @@
         },
         {
           "name": "alias",
-          "resolveId": 4
+          "resolveId": 8
         },
         {
           "name": "alias",
@@ -2666,7 +4535,7 @@
         },
         {
           "name": "alias",
-          "resolveId": 1
+          "resolveId": 2
         },
         {
           "name": "alias",
@@ -2739,7 +4608,7 @@
         },
         {
           "name": "alias",
-          "resolveId": 2
+          "resolveId": 3
         }
       ],
       "virtual": true,
@@ -2762,7 +4631,7 @@
         },
         {
           "name": "alias",
-          "resolveId": 1
+          "resolveId": 2
         }
       ],
       "virtual": true,
@@ -2779,11 +4648,11 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 23
+          "transform": 96
         },
         {
           "name": "vite:define",
-          "transform": 1
+          "transform": 0
         },
         {
           "name": "alias",
@@ -2791,7 +4660,7 @@
         }
       ],
       "virtual": false,
-      "totalTime": 24,
+      "totalTime": 96,
       "invokeCount": 1,
       "sourceSize": 360,
       "distSize": 0
@@ -2802,21 +4671,25 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 288
+          "transform": 199
         },
         {
           "name": "vite:vue",
-          "transform": 10
+          "transform": 13
+        },
+        {
+          "name": "nuxt:components-loader",
+          "transform": 1
         }
       ],
       "virtual": false,
-      "totalTime": 298,
+      "totalTime": 213,
       "invokeCount": 1,
-      "sourceSize": 2655,
+      "sourceSize": 3030,
       "distSize": 0
     },
     {
-      "id": "/Users/mac/anna-hair-expert/app.vue?vue&type=style&index=0&scoped=8fd832d7&lang.scss",
+      "id": "/Users/mac/anna-hair-expert/app.vue?vue&type=style&index=0&lang.scss",
       "deps": [],
       "plugins": [
         {
@@ -2825,11 +4698,11 @@
         },
         {
           "name": "vite:css",
-          "transform": 164
+          "transform": 254
         },
         {
           "name": "vite:vue",
-          "transform": 3
+          "transform": 1
         },
         {
           "name": "vite:css-post",
@@ -2837,13 +4710,314 @@
         }
       ],
       "virtual": true,
-      "totalTime": 167,
+      "totalTime": 255,
       "invokeCount": 1,
-      "sourceSize": 1691,
+      "sourceSize": 1781,
       "distSize": 0
     },
     {
-      "id": "/Users/mac/anna-hair-expert/app.vue?vue&type=style&index=0&scoped=8fd832d7&lang.scss?inline&used",
+      "id": "/Users/mac/anna-hair-expert/app.vue?vue&type=style&index=0&lang.scss?inline&used",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:css",
+          "transform": 203
+        },
+        {
+          "name": "vite:vue",
+          "transform": 1
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 1
+        }
+      ],
+      "virtual": true,
+      "totalTime": 205,
+      "invokeCount": 1,
+      "sourceSize": 1781,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/assets/css/main.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 722
+        },
+        {
+          "name": "vite:css",
+          "transform": 999
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 8
+        },
+        {
+          "name": "ssr-styles",
+          "resolveId": 10
+        }
+      ],
+      "virtual": false,
+      "totalTime": 1721,
+      "invokeCount": 1,
+      "sourceSize": 223,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/assets/css/main.css?inline&used",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 344
+        },
+        {
+          "name": "vite:css",
+          "transform": 1986
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 2330,
+      "invokeCount": 1,
+      "sourceSize": 223,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/assets/master.png",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:asset",
+          "transform": 697
+        },
+        {
+          "name": "alias",
+          "resolveId": 2
+        }
+      ],
+      "virtual": true,
+      "totalTime": 697,
+      "invokeCount": 1,
+      "sourceSize": 41,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/components/Advantages.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 266
+        },
+        {
+          "name": "vite:vue",
+          "transform": 7
+        },
+        {
+          "name": "nuxt:components-loader",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "ssr-styles",
+          "resolveId": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 273,
+      "invokeCount": 1,
+      "sourceSize": 3074,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/components/Advantages.vue?vue&type=style&index=0&lang.scss",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:css",
+          "transform": 317
+        },
+        {
+          "name": "vite:vue",
+          "transform": 1
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 318,
+      "invokeCount": 1,
+      "sourceSize": 693,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/components/Advantages.vue?vue&type=style&index=0&lang.scss?inline&used",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:css",
+          "transform": 235
+        },
+        {
+          "name": "vite:vue",
+          "transform": 3
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 1
+        }
+      ],
+      "virtual": true,
+      "totalTime": 239,
+      "invokeCount": 1,
+      "sourceSize": 693,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/components/Course.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 284
+        },
+        {
+          "name": "vite:vue",
+          "transform": 10
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "ssr-styles",
+          "resolveId": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 294,
+      "invokeCount": 1,
+      "sourceSize": 8700,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/components/Course.vue?vue&type=style&index=0&lang.scss",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 1
+        },
+        {
+          "name": "vite:css",
+          "transform": 296
+        },
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 297,
+      "invokeCount": 1,
+      "sourceSize": 1057,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/components/Course.vue?vue&type=style&index=0&lang.scss?inline&used",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:css",
+          "transform": 228
+        },
+        {
+          "name": "vite:vue",
+          "transform": 2
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 1
+        }
+      ],
+      "virtual": true,
+      "totalTime": 231,
+      "invokeCount": 1,
+      "sourceSize": 1057,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/components/LiquidButton.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 510
+        },
+        {
+          "name": "vite:vue",
+          "transform": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "alias",
+          "resolveId": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "ssr-styles",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 512,
+      "invokeCount": 1,
+      "sourceSize": 321,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/components/LiquidButton.vue?vue&type=style&index=0&lang.css",
       "deps": [],
       "plugins": [
         {
@@ -2856,133 +5030,21 @@
         },
         {
           "name": "vite:vue",
-          "transform": 7
-        },
-        {
-          "name": "vite:css-post",
-          "transform": 1
-        }
-      ],
-      "virtual": true,
-      "totalTime": 123,
-      "invokeCount": 1,
-      "sourceSize": 1691,
-      "distSize": 0
-    },
-    {
-      "id": "/Users/mac/anna-hair-expert/assets/css/main.css",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 441
-        },
-        {
-          "name": "vite:css",
-          "transform": 345
-        },
-        {
-          "name": "vite:css-post",
-          "transform": 0
-        },
-        {
-          "name": "alias",
-          "resolveId": 5
-        },
-        {
-          "name": "ssr-styles",
-          "resolveId": 5
-        }
-      ],
-      "virtual": false,
-      "totalTime": 786,
-      "invokeCount": 1,
-      "sourceSize": 59,
-      "distSize": 0
-    },
-    {
-      "id": "/Users/mac/anna-hair-expert/assets/css/main.css?inline&used",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 239
-        },
-        {
-          "name": "vite:css",
-          "transform": 412
-        },
-        {
-          "name": "vite:css-post",
-          "transform": 0
-        }
-      ],
-      "virtual": false,
-      "totalTime": 651,
-      "invokeCount": 1,
-      "sourceSize": 59,
-      "distSize": 0
-    },
-    {
-      "id": "/Users/mac/anna-hair-expert/assets/master.png",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:asset",
-          "transform": 414
-        },
-        {
-          "name": "alias",
-          "resolveId": 1
-        }
-      ],
-      "virtual": true,
-      "totalTime": 414,
-      "invokeCount": 1,
-      "sourceSize": 41,
-      "distSize": 0
-    },
-    {
-      "id": "/Users/mac/anna-hair-expert/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 165
-        },
-        {
-          "name": "vite:vue",
-          "transform": 8
-        },
-        {
-          "name": "nuxt:imports-transform",
-          "transform": 7
-        },
-        {
-          "name": "nuxt:imports-transform",
-          "transform": 7
-        },
-        {
-          "name": "nuxt:components-loader",
           "transform": 1
         },
         {
-          "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "ssr-styles",
-          "resolveId": 2
+          "name": "vite:css-post",
+          "transform": 0
         }
       ],
-      "virtual": false,
-      "totalTime": 188,
+      "virtual": true,
+      "totalTime": 116,
       "invokeCount": 1,
-      "sourceSize": 5283,
+      "sourceSize": 57,
       "distSize": 0
     },
     {
-      "id": "/Users/mac/anna-hair-expert/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue?vue&type=style&index=0&scoped=ccd3db62&lang.css",
+      "id": "/Users/mac/anna-hair-expert/components/LiquidButton.vue?vue&type=style&index=0&lang.css?inline&used",
       "deps": [],
       "plugins": [
         {
@@ -2991,11 +5053,11 @@
         },
         {
           "name": "vite:css",
-          "transform": 34
+          "transform": 777
         },
         {
           "name": "vite:vue",
-          "transform": 3
+          "transform": 0
         },
         {
           "name": "vite:css-post",
@@ -3003,134 +5065,18 @@
         }
       ],
       "virtual": true,
-      "totalTime": 37,
+      "totalTime": 777,
       "invokeCount": 1,
-      "sourceSize": 3195,
+      "sourceSize": 57,
       "distSize": 0
     },
     {
-      "id": "/Users/mac/anna-hair-expert/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue?vue&type=style&index=0&scoped=ccd3db62&lang.css?inline&used",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:vue",
-          "transform": 1
-        },
-        {
-          "name": "vite:css",
-          "transform": 41
-        },
-        {
-          "name": "vite:vue",
-          "transform": 6
-        },
-        {
-          "name": "vite:css-post",
-          "transform": 0
-        }
-      ],
-      "virtual": true,
-      "totalTime": 48,
-      "invokeCount": 1,
-      "sourceSize": 3195,
-      "distSize": 0
-    },
-    {
-      "id": "/Users/mac/anna-hair-expert/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue",
+      "id": "/Users/mac/anna-hair-expert/components/Slider.vue",
       "deps": [],
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 317
-        },
-        {
-          "name": "vite:vue",
-          "transform": 3
-        },
-        {
-          "name": "nuxt:imports-transform",
-          "transform": 3
-        },
-        {
-          "name": "nuxt:imports-transform",
-          "transform": 3
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 1
-        },
-        {
-          "name": "ssr-styles",
-          "resolveId": 2
-        }
-      ],
-      "virtual": false,
-      "totalTime": 326,
-      "invokeCount": 1,
-      "sourceSize": 3283,
-      "distSize": 0
-    },
-    {
-      "id": "/Users/mac/anna-hair-expert/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue?vue&type=style&index=0&scoped=df79c84d&lang.css",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:vue",
-          "transform": 0
-        },
-        {
-          "name": "vite:css",
-          "transform": 29
-        },
-        {
-          "name": "vite:vue",
-          "transform": 2
-        },
-        {
-          "name": "vite:css-post",
-          "transform": 0
-        }
-      ],
-      "virtual": true,
-      "totalTime": 31,
-      "invokeCount": 1,
-      "sourceSize": 1494,
-      "distSize": 0
-    },
-    {
-      "id": "/Users/mac/anna-hair-expert/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue?vue&type=style&index=0&scoped=df79c84d&lang.css?inline&used",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:vue",
-          "transform": 0
-        },
-        {
-          "name": "vite:css",
-          "transform": 24
-        },
-        {
-          "name": "vite:vue",
-          "transform": 2
-        },
-        {
-          "name": "vite:css-post",
-          "transform": 0
-        }
-      ],
-      "virtual": true,
-      "totalTime": 26,
-      "invokeCount": 1,
-      "sourceSize": 1494,
-      "distSize": 0
-    },
-    {
-      "id": "/Users/mac/anna-hair-expert/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue",
-      "deps": [],
-      "plugins": [
-        {
-          "name": "vite:load-fallback",
-          "transform": 273
+          "transform": 476
         },
         {
           "name": "vite:vue",
@@ -3145,6 +5091,126 @@
           "transform": 1
         },
         {
+          "name": "nuxt:components-loader",
+          "transform": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 483,
+      "invokeCount": 1,
+      "sourceSize": 512,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/components/Tariffs.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 306
+        },
+        {
+          "name": "vite:vue",
+          "transform": 6
+        },
+        {
+          "name": "nuxt:components-loader",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "ssr-styles",
+          "resolveId": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 312,
+      "invokeCount": 1,
+      "sourceSize": 4704,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/components/Tariffs.vue?vue&type=style&index=0&lang.scss",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:css",
+          "transform": 279
+        },
+        {
+          "name": "vite:vue",
+          "transform": 1
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 280,
+      "invokeCount": 1,
+      "sourceSize": 771,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/components/Tariffs.vue?vue&type=style&index=0&lang.scss?inline&used",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:css",
+          "transform": 220
+        },
+        {
+          "name": "vite:vue",
+          "transform": 2
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 1
+        }
+      ],
+      "virtual": true,
+      "totalTime": 223,
+      "invokeCount": 1,
+      "sourceSize": 771,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 401
+        },
+        {
+          "name": "vite:vue",
+          "transform": 7
+        },
+        {
+          "name": "nuxt:imports-transform",
+          "transform": 5
+        },
+        {
+          "name": "nuxt:imports-transform",
+          "transform": 5
+        },
+        {
+          "name": "nuxt:components-loader",
+          "transform": 0
+        },
+        {
           "name": "vite:resolve",
           "resolveId": 1
         },
@@ -3154,7 +5220,185 @@
         }
       ],
       "virtual": false,
-      "totalTime": 280,
+      "totalTime": 418,
+      "invokeCount": 1,
+      "sourceSize": 5283,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue?vue&type=style&index=0&scoped=ccd3db62&lang.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:css",
+          "transform": 35
+        },
+        {
+          "name": "vite:vue",
+          "transform": 4
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 39,
+      "invokeCount": 1,
+      "sourceSize": 3195,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue?vue&type=style&index=0&scoped=ccd3db62&lang.css?inline&used",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:css",
+          "transform": 36
+        },
+        {
+          "name": "vite:vue",
+          "transform": 4
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 40,
+      "invokeCount": 1,
+      "sourceSize": 3195,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 309
+        },
+        {
+          "name": "vite:vue",
+          "transform": 8
+        },
+        {
+          "name": "nuxt:imports-transform",
+          "transform": 8
+        },
+        {
+          "name": "nuxt:imports-transform",
+          "transform": 8
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
+        },
+        {
+          "name": "ssr-styles",
+          "resolveId": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 333,
+      "invokeCount": 1,
+      "sourceSize": 3283,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue?vue&type=style&index=0&scoped=df79c84d&lang.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:css",
+          "transform": 31
+        },
+        {
+          "name": "vite:vue",
+          "transform": 2
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 33,
+      "invokeCount": 1,
+      "sourceSize": 1494,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue?vue&type=style&index=0&scoped=df79c84d&lang.css?inline&used",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:vue",
+          "transform": 0
+        },
+        {
+          "name": "vite:css",
+          "transform": 32
+        },
+        {
+          "name": "vite:vue",
+          "transform": 6
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        }
+      ],
+      "virtual": true,
+      "totalTime": 38,
+      "invokeCount": 1,
+      "sourceSize": 1494,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 589
+        },
+        {
+          "name": "vite:vue",
+          "transform": 5
+        },
+        {
+          "name": "nuxt:imports-transform",
+          "transform": 2
+        },
+        {
+          "name": "nuxt:imports-transform",
+          "transform": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "ssr-styles",
+          "resolveId": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 598,
       "invokeCount": 1,
       "sourceSize": 4089,
       "distSize": 0
@@ -3169,11 +5413,11 @@
         },
         {
           "name": "vite:css",
-          "transform": 28
+          "transform": 29
         },
         {
           "name": "vite:vue",
-          "transform": 4
+          "transform": 3
         },
         {
           "name": "vite:css-post",
@@ -3192,7 +5436,15 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 308
+          "transform": 698
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 0
         },
         {
           "name": "vite:resolve",
@@ -3205,18 +5457,10 @@
         {
           "name": "vite:resolve",
           "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
         }
       ],
       "virtual": false,
-      "totalTime": 308,
+      "totalTime": 698,
       "invokeCount": 1,
       "sourceSize": 3864,
       "distSize": 0
@@ -3227,7 +5471,7 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 221
+          "transform": 340
         },
         {
           "name": "replace",
@@ -3243,7 +5487,7 @@
         }
       ],
       "virtual": false,
-      "totalTime": 221,
+      "totalTime": 340,
       "invokeCount": 1,
       "sourceSize": 2633,
       "distSize": 0
@@ -3254,19 +5498,19 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 235
+          "transform": 336
         },
         {
           "name": "nuxt:tree-shake-composables:transform",
-          "transform": 1
+          "transform": 0
         },
         {
           "name": "vite:resolve",
-          "resolveId": 0
+          "resolveId": 1
         }
       ],
       "virtual": false,
-      "totalTime": 236,
+      "totalTime": 336,
       "invokeCount": 1,
       "sourceSize": 1035,
       "distSize": 0
@@ -3277,7 +5521,7 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 7
+          "transform": 77
         },
         {
           "name": "replace",
@@ -3285,7 +5529,7 @@
         },
         {
           "name": "vite:resolve",
-          "resolveId": 0
+          "resolveId": 1
         },
         {
           "name": "vite:resolve",
@@ -3293,7 +5537,7 @@
         }
       ],
       "virtual": false,
-      "totalTime": 7,
+      "totalTime": 77,
       "invokeCount": 1,
       "sourceSize": 456,
       "distSize": 0
@@ -3304,7 +5548,7 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 286
+          "transform": 192
         },
         {
           "name": "vite:resolve",
@@ -3312,11 +5556,11 @@
         },
         {
           "name": "vite:resolve",
-          "resolveId": 0
+          "resolveId": 1
         }
       ],
       "virtual": false,
-      "totalTime": 286,
+      "totalTime": 192,
       "invokeCount": 1,
       "sourceSize": 103,
       "distSize": 0
@@ -3327,7 +5571,7 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 289
+          "transform": 183
         },
         {
           "name": "vite:resolve",
@@ -3335,7 +5579,7 @@
         }
       ],
       "virtual": false,
-      "totalTime": 289,
+      "totalTime": 183,
       "invokeCount": 1,
       "sourceSize": 719,
       "distSize": 0
@@ -3346,7 +5590,7 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 317
+          "transform": 225
         },
         {
           "name": "vite:vue",
@@ -3354,11 +5598,11 @@
         },
         {
           "name": "replace",
-          "transform": 1
+          "transform": 0
         }
       ],
       "virtual": false,
-      "totalTime": 323,
+      "totalTime": 230,
       "invokeCount": 1,
       "sourceSize": 1688,
       "distSize": 0
@@ -3369,7 +5613,7 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 177
+          "transform": 299
         },
         {
           "name": "replace",
@@ -3377,7 +5621,7 @@
         },
         {
           "name": "nuxt:tree-shake-composables:transform",
-          "transform": 3
+          "transform": 2
         },
         {
           "name": "vite:resolve",
@@ -3385,7 +5629,7 @@
         }
       ],
       "virtual": false,
-      "totalTime": 181,
+      "totalTime": 302,
       "invokeCount": 1,
       "sourceSize": 10108,
       "distSize": 0
@@ -3396,11 +5640,11 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 332
+          "transform": 638
         },
         {
           "name": "vite:vue",
-          "transform": 14
+          "transform": 15
         },
         {
           "name": "replace",
@@ -3408,7 +5652,7 @@
         }
       ],
       "virtual": false,
-      "totalTime": 347,
+      "totalTime": 654,
       "invokeCount": 1,
       "sourceSize": 2279,
       "distSize": 0
@@ -3419,7 +5663,7 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 311
+          "transform": 189
         },
         {
           "name": "vite:resolve",
@@ -3427,7 +5671,7 @@
         }
       ],
       "virtual": false,
-      "totalTime": 311,
+      "totalTime": 189,
       "invokeCount": 1,
       "sourceSize": 943,
       "distSize": 0
@@ -3438,7 +5682,7 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 292
+          "transform": 684
         },
         {
           "name": "replace",
@@ -3446,7 +5690,7 @@
         },
         {
           "name": "vite:resolve",
-          "resolveId": 0
+          "resolveId": 1
         },
         {
           "name": "vite:resolve",
@@ -3466,7 +5710,7 @@
         }
       ],
       "virtual": false,
-      "totalTime": 292,
+      "totalTime": 684,
       "invokeCount": 1,
       "sourceSize": 1022,
       "distSize": 0
@@ -3477,7 +5721,7 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 207
+          "transform": 348
         },
         {
           "name": "vite:resolve",
@@ -3489,7 +5733,7 @@
         }
       ],
       "virtual": false,
-      "totalTime": 207,
+      "totalTime": 348,
       "invokeCount": 1,
       "sourceSize": 984,
       "distSize": 0
@@ -3500,11 +5744,11 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 302
+          "transform": 555
         },
         {
           "name": "replace",
-          "transform": 0
+          "transform": 1
         },
         {
           "name": "vite:resolve",
@@ -3512,7 +5756,7 @@
         }
       ],
       "virtual": false,
-      "totalTime": 302,
+      "totalTime": 556,
       "invokeCount": 1,
       "sourceSize": 3787,
       "distSize": 0
@@ -3523,11 +5767,11 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 3
+          "transform": 67
         },
         {
           "name": "replace",
-          "transform": 1
+          "transform": 0
         },
         {
           "name": "vite:resolve",
@@ -3535,7 +5779,7 @@
         }
       ],
       "virtual": false,
-      "totalTime": 4,
+      "totalTime": 67,
       "invokeCount": 1,
       "sourceSize": 1595,
       "distSize": 0
@@ -3546,7 +5790,7 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 9
+          "transform": 65
         },
         {
           "name": "replace",
@@ -3558,7 +5802,7 @@
         }
       ],
       "virtual": false,
-      "totalTime": 10,
+      "totalTime": 66,
       "invokeCount": 1,
       "sourceSize": 412,
       "distSize": 0
@@ -3569,11 +5813,15 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 295
+          "transform": 690
         },
         {
           "name": "replace",
-          "transform": 0
+          "transform": 2
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
         },
         {
           "name": "vite:resolve",
@@ -3581,11 +5829,7 @@
         },
         {
           "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
+          "resolveId": 1
         },
         {
           "name": "vite:resolve",
@@ -3605,7 +5849,7 @@
         }
       ],
       "virtual": false,
-      "totalTime": 295,
+      "totalTime": 692,
       "invokeCount": 1,
       "sourceSize": 5967,
       "distSize": 0
@@ -3616,7 +5860,7 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 235
+          "transform": 495
         },
         {
           "name": "replace",
@@ -3624,7 +5868,7 @@
         },
         {
           "name": "vite:define",
-          "transform": 9
+          "transform": 1
         },
         {
           "name": "vite:resolve",
@@ -3636,11 +5880,11 @@
         },
         {
           "name": "alias",
-          "resolveId": 1
+          "resolveId": 0
         }
       ],
       "virtual": false,
-      "totalTime": 244,
+      "totalTime": 496,
       "invokeCount": 1,
       "sourceSize": 1574,
       "distSize": 0
@@ -3651,15 +5895,15 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 0
+          "transform": 1
         },
         {
           "name": "replace",
-          "transform": 0
+          "transform": 1
         }
       ],
       "virtual": false,
-      "totalTime": 0,
+      "totalTime": 2,
       "invokeCount": 1,
       "sourceSize": 2259,
       "distSize": 0
@@ -3670,7 +5914,7 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 305
+          "transform": 520
         },
         {
           "name": "replace",
@@ -3678,15 +5922,15 @@
         },
         {
           "name": "unctx:transform",
-          "transform": 1
+          "transform": 0
         },
         {
           "name": "unctx:transform",
-          "transform": 1
+          "transform": 0
         }
       ],
       "virtual": false,
-      "totalTime": 307,
+      "totalTime": 520,
       "invokeCount": 1,
       "sourceSize": 356,
       "distSize": 0
@@ -3697,7 +5941,7 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 289
+          "transform": 648
         },
         {
           "name": "replace",
@@ -3705,7 +5949,7 @@
         },
         {
           "name": "vite:define",
-          "transform": 6
+          "transform": 4
         },
         {
           "name": "vite:resolve",
@@ -3713,7 +5957,7 @@
         },
         {
           "name": "vite:resolve",
-          "resolveId": 1
+          "resolveId": 0
         },
         {
           "name": "vite:resolve",
@@ -3721,15 +5965,19 @@
         },
         {
           "name": "vite:resolve",
-          "resolveId": 1
+          "resolveId": 0
         },
         {
           "name": "alias",
-          "resolveId": 287
+          "resolveId": 384
         },
         {
           "name": "alias",
-          "resolveId": 2
+          "resolveId": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
         },
         {
           "name": "vite:resolve",
@@ -3749,11 +5997,7 @@
         },
         {
           "name": "vite:resolve",
-          "resolveId": 0
-        },
-        {
-          "name": "vite:resolve",
-          "resolveId": 0
+          "resolveId": 1
         },
         {
           "name": "vite:resolve",
@@ -3769,7 +6013,7 @@
         }
       ],
       "virtual": false,
-      "totalTime": 295,
+      "totalTime": 652,
       "invokeCount": 1,
       "sourceSize": 6071,
       "distSize": 0
@@ -3780,11 +6024,11 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 326
+          "transform": 667
         }
       ],
       "virtual": false,
-      "totalTime": 326,
+      "totalTime": 667,
       "invokeCount": 1,
       "sourceSize": 1177,
       "distSize": 0
@@ -3795,15 +6039,15 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 302
+          "transform": 645
         },
         {
           "name": "replace",
-          "transform": 1
+          "transform": 0
         }
       ],
       "virtual": false,
-      "totalTime": 303,
+      "totalTime": 645,
       "invokeCount": 1,
       "sourceSize": 6903,
       "distSize": 0
@@ -3814,7 +6058,7 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 293
+          "transform": 637
         },
         {
           "name": "replace",
@@ -3822,9 +6066,709 @@
         }
       ],
       "virtual": false,
-      "totalTime": 293,
+      "totalTime": 637,
       "invokeCount": 1,
       "sourceSize": 1315,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/a11y.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 653
+        },
+        {
+          "name": "vite:css",
+          "transform": 20
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 6
+        }
+      ],
+      "virtual": false,
+      "totalTime": 673,
+      "invokeCount": 1,
+      "sourceSize": 143,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/a11y.css?inline&used",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 343
+        },
+        {
+          "name": "vite:css",
+          "transform": 28
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 371,
+      "invokeCount": 1,
+      "sourceSize": 143,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/effect-cards.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 645
+        },
+        {
+          "name": "vite:css",
+          "transform": 16
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 6
+        }
+      ],
+      "virtual": false,
+      "totalTime": 661,
+      "invokeCount": 1,
+      "sourceSize": 204,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/effect-cards.css?inline&used",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 418
+        },
+        {
+          "name": "vite:css",
+          "transform": 23
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 441,
+      "invokeCount": 1,
+      "sourceSize": 204,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/effect-creative.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 617
+        },
+        {
+          "name": "vite:css",
+          "transform": 19
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 6
+        }
+      ],
+      "virtual": false,
+      "totalTime": 636,
+      "invokeCount": 1,
+      "sourceSize": 184,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/effect-creative.css?inline&used",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 442
+        },
+        {
+          "name": "vite:css",
+          "transform": 25
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 467,
+      "invokeCount": 1,
+      "sourceSize": 184,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/effect-cube.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 612
+        },
+        {
+          "name": "vite:css",
+          "transform": 22
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 5
+        }
+      ],
+      "virtual": false,
+      "totalTime": 634,
+      "invokeCount": 1,
+      "sourceSize": 1502,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/effect-cube.css?inline&used",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 467
+        },
+        {
+          "name": "vite:css",
+          "transform": 26
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 493,
+      "invokeCount": 1,
+      "sourceSize": 1502,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/effect-fade.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 609
+        },
+        {
+          "name": "vite:css",
+          "transform": 22
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 4
+        }
+      ],
+      "virtual": false,
+      "totalTime": 631,
+      "invokeCount": 1,
+      "sourceSize": 389,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/effect-fade.css?inline&used",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 494
+        },
+        {
+          "name": "vite:css",
+          "transform": 23
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 517,
+      "invokeCount": 1,
+      "sourceSize": 389,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/effect-flip.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 605
+        },
+        {
+          "name": "vite:css",
+          "transform": 23
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 4
+        }
+      ],
+      "virtual": false,
+      "totalTime": 628,
+      "invokeCount": 1,
+      "sourceSize": 789,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/effect-flip.css?inline&used",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 518
+        },
+        {
+          "name": "vite:css",
+          "transform": 23
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 541,
+      "invokeCount": 1,
+      "sourceSize": 789,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/free-mode.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 604
+        },
+        {
+          "name": "vite:css",
+          "transform": 20
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 3
+        }
+      ],
+      "virtual": false,
+      "totalTime": 624,
+      "invokeCount": 1,
+      "sourceSize": 98,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/free-mode.css?inline&used",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 542
+        },
+        {
+          "name": "vite:css",
+          "transform": 22
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 564,
+      "invokeCount": 1,
+      "sourceSize": 98,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/grid.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 601
+        },
+        {
+          "name": "vite:css",
+          "transform": 21
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 3
+        }
+      ],
+      "virtual": false,
+      "totalTime": 622,
+      "invokeCount": 1,
+      "sourceSize": 141,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/grid.css?inline&used",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 564
+        },
+        {
+          "name": "vite:css",
+          "transform": 17
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 581,
+      "invokeCount": 1,
+      "sourceSize": 141,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/navigation.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 599
+        },
+        {
+          "name": "vite:css",
+          "transform": 26
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 3
+        }
+      ],
+      "virtual": false,
+      "totalTime": 625,
+      "invokeCount": 1,
+      "sourceSize": 2170,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/navigation.css?inline&used",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 581
+        },
+        {
+          "name": "vite:css",
+          "transform": 22
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 603,
+      "invokeCount": 1,
+      "sourceSize": 2170,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/pagination.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 607
+        },
+        {
+          "name": "vite:css",
+          "transform": 44
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 1
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 652,
+      "invokeCount": 1,
+      "sourceSize": 6525,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/pagination.css?inline&used",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 604
+        },
+        {
+          "name": "vite:css",
+          "transform": 29
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 633,
+      "invokeCount": 1,
+      "sourceSize": 6525,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/scrollbar.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 630
+        },
+        {
+          "name": "vite:css",
+          "transform": 29
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 2
+        }
+      ],
+      "virtual": false,
+      "totalTime": 659,
+      "invokeCount": 1,
+      "sourceSize": 1775,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/scrollbar.css?inline&used",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 634
+        },
+        {
+          "name": "vite:css",
+          "transform": 21
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 655,
+      "invokeCount": 1,
+      "sourceSize": 1775,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/virtual.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 632
+        },
+        {
+          "name": "vite:css",
+          "transform": 22
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 654,
+      "invokeCount": 1,
+      "sourceSize": 498,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/virtual.css?inline&used",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 655
+        },
+        {
+          "name": "vite:css",
+          "transform": 18
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 673,
+      "invokeCount": 1,
+      "sourceSize": 498,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/zoom.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 632
+        },
+        {
+          "name": "vite:css",
+          "transform": 23
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 1
+        }
+      ],
+      "virtual": false,
+      "totalTime": 655,
+      "invokeCount": 1,
+      "sourceSize": 434,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/modules/zoom.css?inline&used",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 673
+        },
+        {
+          "name": "vite:css",
+          "transform": 17
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 690,
+      "invokeCount": 1,
+      "sourceSize": 434,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/swiper.css",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 544
+        },
+        {
+          "name": "vite:css",
+          "transform": 32
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        },
+        {
+          "name": "vite:resolve",
+          "resolveId": 7
+        }
+      ],
+      "virtual": false,
+      "totalTime": 576,
+      "invokeCount": 1,
+      "sourceSize": 7968,
+      "distSize": 0
+    },
+    {
+      "id": "/Users/mac/anna-hair-expert/node_modules/swiper/swiper.css?inline&used",
+      "deps": [],
+      "plugins": [
+        {
+          "name": "vite:load-fallback",
+          "transform": 377
+        },
+        {
+          "name": "vite:css",
+          "transform": 43
+        },
+        {
+          "name": "vite:css-post",
+          "transform": 0
+        }
+      ],
+      "virtual": false,
+      "totalTime": 420,
+      "invokeCount": 1,
+      "sourceSize": 7968,
       "distSize": 0
     },
     {
@@ -3833,11 +6777,11 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 361
+          "transform": 650
         },
         {
           "name": "vite:css",
-          "transform": 377
+          "transform": 343
         },
         {
           "name": "vite:css-post",
@@ -3845,7 +6789,7 @@
         }
       ],
       "virtual": false,
-      "totalTime": 738,
+      "totalTime": 993,
       "invokeCount": 1,
       "sourceSize": 61,
       "distSize": 0
@@ -3856,11 +6800,11 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 140
+          "transform": 265
         },
         {
           "name": "vite:css",
-          "transform": 473
+          "transform": 619
         },
         {
           "name": "vite:css-post",
@@ -3868,7 +6812,7 @@
         }
       ],
       "virtual": false,
-      "totalTime": 613,
+      "totalTime": 884,
       "invokeCount": 1,
       "sourceSize": 61,
       "distSize": 0
@@ -3879,15 +6823,15 @@
       "plugins": [
         {
           "name": "vite:load-fallback",
-          "transform": 212
+          "transform": 297
         },
         {
           "name": "replace",
-          "transform": 1
+          "transform": 0
         }
       ],
       "virtual": false,
-      "totalTime": 213,
+      "totalTime": 297,
       "invokeCount": 1,
       "sourceSize": 3878,
       "distSize": 0
@@ -3906,7 +6850,7 @@
         },
         {
           "name": "virtual",
-          "resolveId": 0
+          "resolveId": 1
         },
         {
           "name": "alias",
@@ -3987,17 +6931,17 @@
         },
         {
           "name": "alias",
-          "resolveId": 6
+          "resolveId": 5
         },
         {
           "name": "ssr-styles",
-          "resolveId": 13
+          "resolveId": 10
         }
       ],
       "virtual": true,
       "totalTime": 0,
       "invokeCount": 2,
-      "sourceSize": 107,
+      "sourceSize": 531,
       "distSize": 0
     },
     {
@@ -4014,7 +6958,7 @@
         },
         {
           "name": "virtual",
-          "resolveId": 0
+          "resolveId": 1
         },
         {
           "name": "alias",
@@ -4060,7 +7004,7 @@
       "plugins": [
         {
           "name": "virtual",
-          "transform": 0
+          "transform": 1
         },
         {
           "name": "virtual",
@@ -4072,11 +7016,11 @@
         },
         {
           "name": "alias",
-          "resolveId": 1
+          "resolveId": 2
         }
       ],
       "virtual": true,
-      "totalTime": 0,
+      "totalTime": 1,
       "invokeCount": 2,
       "sourceSize": 223,
       "distSize": 0
@@ -4151,7 +7095,7 @@
         },
         {
           "name": "alias",
-          "resolveId": 3
+          "resolveId": 2
         },
         {
           "name": "alias",
@@ -4194,7 +7138,7 @@
         },
         {
           "name": "virtual",
-          "resolveId": 0
+          "resolveId": 7
         },
         {
           "name": "virtual",
@@ -4210,7 +7154,7 @@
         },
         {
           "name": "alias",
-          "resolveId": 5
+          "resolveId": 16
         },
         {
           "name": "alias",
@@ -4322,7 +7266,7 @@
         },
         {
           "name": "alias",
-          "resolveId": 2
+          "resolveId": 1
         }
       ],
       "virtual": true,

@@ -1,13 +1,66 @@
 {
-  "_vue.f36acd1f.e894f738.js": {
+  "_swiper-vue.d60be0f7.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "vue.f36acd1f.e894f738.js",
+    "css": [
+      "swiper-vue.977412a5.css"
+    ],
+    "file": "swiper-vue.d60be0f7.js"
+  },
+  "swiper-vue.977412a5.css": {
+    "file": "swiper-vue.977412a5.css",
+    "resourceType": "style",
+    "prefetch": true,
+    "preload": true
+  },
+  "_vue.f36acd1f.8fe0d5dd.js": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "file": "vue.f36acd1f.8fe0d5dd.js",
     "imports": [
-      "node_modules/nuxt/dist/app/entry.js"
+      "node_modules/nuxt/dist/app/entry.js",
+      "_swiper-vue.d60be0f7.js"
     ]
+  },
+  "assets/fonts/tisa_sans_pro_bold-webfont.woff": {
+    "resourceType": "font",
+    "mimeType": "font/woff",
+    "file": "tisa_sans_pro_bold-webfont.289ce82c.woff",
+    "src": "assets/fonts/tisa_sans_pro_bold-webfont.woff"
+  },
+  "assets/fonts/tisa_sans_pro_bold-webfont.woff2": {
+    "resourceType": "font",
+    "mimeType": "font/woff2",
+    "file": "tisa_sans_pro_bold-webfont.bb19ec5b.woff2",
+    "src": "assets/fonts/tisa_sans_pro_bold-webfont.woff2"
+  },
+  "assets/fonts/tisa_sans_pro_light-webfont.woff": {
+    "resourceType": "font",
+    "mimeType": "font/woff",
+    "file": "tisa_sans_pro_light-webfont.3852362b.woff",
+    "src": "assets/fonts/tisa_sans_pro_light-webfont.woff"
+  },
+  "assets/fonts/tisa_sans_pro_light-webfont.woff2": {
+    "resourceType": "font",
+    "mimeType": "font/woff2",
+    "file": "tisa_sans_pro_light-webfont.387e6ecc.woff2",
+    "src": "assets/fonts/tisa_sans_pro_light-webfont.woff2"
+  },
+  "assets/fonts/tisa_sans_pro_regular-webfont.woff": {
+    "resourceType": "font",
+    "mimeType": "font/woff",
+    "file": "tisa_sans_pro_regular-webfont.de1e3ca1.woff",
+    "src": "assets/fonts/tisa_sans_pro_regular-webfont.woff"
+  },
+  "assets/fonts/tisa_sans_pro_regular-webfont.woff2": {
+    "resourceType": "font",
+    "mimeType": "font/woff2",
+    "file": "tisa_sans_pro_regular-webfont.fd0df28d.woff2",
+    "src": "assets/fonts/tisa_sans_pro_regular-webfont.woff2"
   },
   "assets/master.png": {
     "resourceType": "image",
@@ -29,10 +82,11 @@
     "prefetch": true,
     "preload": true,
     "css": [],
-    "file": "error-404.d2cc6233.js",
+    "file": "error-404.b08e376b.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_vue.f36acd1f.e894f738.js"
+      "_swiper-vue.d60be0f7.js",
+      "_vue.f36acd1f.8fe0d5dd.js"
     ],
     "isDynamicEntry": true,
     "src": "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue"
@@ -56,10 +110,11 @@
     "prefetch": true,
     "preload": true,
     "css": [],
-    "file": "error-500.11e358a3.js",
+    "file": "error-500.b2174597.js",
     "imports": [
-      "_vue.f36acd1f.e894f738.js",
-      "node_modules/nuxt/dist/app/entry.js"
+      "_vue.f36acd1f.8fe0d5dd.js",
+      "node_modules/nuxt/dist/app/entry.js",
+      "_swiper-vue.d60be0f7.js"
     ],
     "isDynamicEntry": true,
     "src": "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue"
@@ -74,7 +129,7 @@
     "resourceType": "style",
     "prefetch": true,
     "preload": true,
-    "file": "entry.bc93e8b8.css",
+    "file": "entry.44b0ac94.css",
     "src": "node_modules/nuxt/dist/app/entry.css"
   },
   "node_modules/nuxt/dist/app/entry.js": {
@@ -86,19 +141,22 @@
       "master.fe81ad6a.png"
     ],
     "css": [
-      "entry.bc93e8b8.css"
+      "entry.44b0ac94.css"
     ],
     "dynamicImports": [
       "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
       "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue"
     ],
-    "file": "entry.6cb51635.js",
+    "file": "entry.f0559032.js",
+    "imports": [
+      "_swiper-vue.d60be0f7.js"
+    ],
     "isEntry": true,
     "src": "node_modules/nuxt/dist/app/entry.js",
     "_globalCSS": true
   },
-  "entry.bc93e8b8.css": {
-    "file": "entry.bc93e8b8.css",
+  "entry.44b0ac94.css": {
+    "file": "entry.44b0ac94.css",
     "resourceType": "style",
     "prefetch": true,
     "preload": true
@@ -108,5 +166,12 @@
     "resourceType": "image",
     "prefetch": true,
     "mimeType": "image/png"
+  },
+  "swiper-vue.css": {
+    "resourceType": "style",
+    "prefetch": true,
+    "preload": true,
+    "file": "swiper-vue.977412a5.css",
+    "src": "swiper-vue.css"
   }
 }
