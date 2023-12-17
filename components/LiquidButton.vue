@@ -1,5 +1,5 @@
 <template>
-  <a href="https://t.me/kurzhos_online">
+  <a href="https://t.me/annaivanskay">
     <span> {{ greetingMessage }} </span>
     <div class="liquid"></div>
   </a>
