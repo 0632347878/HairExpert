@@ -4,7 +4,7 @@
       <div class="section-inner flex flex-row gap-4 justify-center lg:gap-8 max-w-[1280px] md:gap-6 sm:gap-4 mx-auto px-12 w-full">
         <div class="description-wrapper flex flex-col justify-center lg:py-2 lg:text-left lg:w-full py-52 text-center">
           <h1
-            class="heading bg-text font-serif gradient leading-tight text-5xl text-koromiko uppercase xl:leading-tight xl:text-6xl">
+            class="hero-title heading bg-text font-serif gradient leading-tight text-5xl text-koromiko uppercase xl:leading-tight xl:text-6xl">
               <span>Anna Kuchma</span>
               <span>Anna Kuchma</span>
              </h1>
@@ -14,10 +14,23 @@
           <img class="master-picture" src="assets/master.png" alt=""></div>
       </div>
     </section>
+    <Advantages/>
+    <Course />
+    <Tariffs />
   </div>
 </template>
 
-<style lang="scss" scoped>
+<script>
+import Advantages from "./components/Advantages.vue";
+import Course from "./components/Course.vue";
+import Tariffs from "./components/Tariffs.vue";
+export default {
+  components: {Course, Advantages, Tariffs}
+}
+</script>
+
+
+<style lang="scss">
 body, html {
   margin: 0;
   padding: 0;
@@ -30,7 +43,7 @@ h1 {
     width: 530px;
   }
 }
-h1>span{
+.hero-title>span{
   bottom: 0;
   left: 0;
   position: absolute;
@@ -56,17 +69,18 @@ h1>span{
     font-size: 4rem;
   }
 }
-h1>span:nth-child(1)
+.hero-title>span:nth-child(1)
 {
   z-index: 2;
 }
-h1>span:nth-child(2)
+.hero-title>span:nth-child(2)
 {
   z-index: 1;
   text-shadow: 1px 1px 0 #262626, 2px 2px 0 #262626, 3px 3px 0 #262626,
   4px 4px 0 #262626, 5px 5px 0 #262626, 1px 1px 0 #262626, 6px 20px 20px rgba(0,0,0,1),
   -1px -1px 0 #fff;
 }
+
 .section-inner {
   padding: 0 10px;
   @media (min-width: 368px) {
@@ -81,6 +95,8 @@ h1>span:nth-child(2)
   }
 }
 .relative {
+  overflow: hidden;
+  max-height: 100vh;
   background: linear-gradient(to bottom, #010702, #404040, #808080);
   img {
     max-width: 80%;
@@ -97,6 +113,7 @@ h1>span:nth-child(2)
   display: flex;
   align-items: flex-end;
   background: none;
+  overflow: visible;
   @media (max-width: 639px) {
     display: none;
   }
