@@ -10,6 +10,7 @@
   >
     <SwiperSlide v-for="image in images" :key="image">
       <img :src="image" :alt="image">
+      <NuxtImg :src="image" :alt="image" />
     </SwiperSlide>
   </Swiper>
 </template>
